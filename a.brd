@@ -3,11 +3,11 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -345,6 +345,60 @@
 <smd name="8" x="0.9" y="1.2" dx="0.8" dy="0.5" layer="1"/>
 <text x="0" y="0" size="0.75" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
 </package>
+<package name="LED3528" urn="urn:adsk.eagle:footprint:24609405/2" library_version="158">
+<smd name="4" x="1.5" y="0.7" dx="1" dy="1.5" layer="1" rot="R90"/>
+<smd name="3" x="-1.5" y="0.7" dx="1" dy="1.5" layer="1" rot="R90"/>
+<smd name="2" x="-1.5" y="-0.7" dx="1" dy="1.5" layer="1" rot="R90"/>
+<smd name="1" x="1.5" y="-0.7" dx="1" dy="1.5" layer="1" rot="R90"/>
+<wire x1="-1.6" y1="1.4" x2="1.6" y2="1.4" width="0.127" layer="51"/>
+<wire x1="1.6" y1="1.4" x2="1.6" y2="-0.6" width="0.127" layer="51"/>
+<wire x1="1.6" y1="-0.6" x2="1.6" y2="-1.4" width="0.127" layer="51"/>
+<wire x1="1.6" y1="-1.4" x2="0.8" y2="-1.4" width="0.127" layer="51"/>
+<wire x1="0.8" y1="-1.4" x2="-1.6" y2="-1.4" width="0.127" layer="51"/>
+<wire x1="-1.6" y1="-1.4" x2="-1.6" y2="1.4" width="0.127" layer="51"/>
+<wire x1="0.8" y1="-1.4" x2="1.6" y2="-0.6" width="0.127" layer="51"/>
+<wire x1="-1.6" y1="1.4" x2="1.6" y2="1.4" width="0.127" layer="21"/>
+<wire x1="1.6" y1="0.05" x2="1.6" y2="-0.05" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="0.05" x2="-1.6" y2="-0.05" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="-1.35" x2="-1.6" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="-1.4" x2="1.6" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="1.6" y1="-1.4" x2="1.6" y2="-1.35" width="0.127" layer="21"/>
+<wire x1="1.6" y1="1.4" x2="1.6" y2="1.35" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="1.4" x2="-1.6" y2="1.35" width="0.127" layer="21"/>
+<text x="0" y="2.1" size="1" layer="25" font="vector" ratio="12" align="center">&gt;NAME</text>
+<circle x="0" y="0" radius="1" width="0.1" layer="51"/>
+</package>
+<package name="CTANT_TYPE_C" urn="urn:adsk.eagle:footprint:52489373/1" library_version="158">
+<description>TYPE C tantillum capacitor 6,0x3,2mm package&lt;br&gt;
+TYPE C / EIA 6032 / &lt;br&gt;
+&lt;br&gt;
+&lt;i&gt;Igor Odaikin, Feb 2021&lt;/i&gt;</description>
+<wire x1="-3.556" y1="1.651" x2="3.556" y2="1.651" width="0.0508" layer="39"/>
+<wire x1="3.556" y1="-1.651" x2="-3.556" y2="-1.651" width="0.0508" layer="39"/>
+<wire x1="-3.556" y1="-1.651" x2="-3.556" y2="1.651" width="0.0508" layer="39"/>
+<wire x1="3.556" y1="1.651" x2="3.556" y2="-1.651" width="0.0508" layer="39"/>
+<wire x1="-2.794" y1="-1.6002" x2="-2.794" y2="1.6002" width="0.1524" layer="51"/>
+<wire x1="-2.8956" y1="1.0922" x2="-2.8956" y2="-1.0922" width="0.254" layer="51"/>
+<wire x1="2.794" y1="1.6002" x2="-2.794" y2="1.6002" width="0.1524" layer="51"/>
+<wire x1="2.794" y1="-1.6002" x2="-2.794" y2="-1.6002" width="0.1524" layer="51"/>
+<wire x1="2.8956" y1="1.0922" x2="2.8956" y2="-1.0922" width="0.254" layer="51"/>
+<wire x1="2.794" y1="-1.6002" x2="2.794" y2="1.6002" width="0.1524" layer="51"/>
+<wire x1="-3.8608" y1="1.5494" x2="-3.4544" y2="1.5494" width="0.1524" layer="21"/>
+<wire x1="-3.6576" y1="1.7526" x2="-3.6576" y2="1.3462" width="0.1524" layer="21"/>
+<wire x1="-2.8" y1="1.6" x2="-1.0922" y2="1.6002" width="0.1524" layer="21"/>
+<wire x1="-1.0922" y1="1.6002" x2="2.794" y2="1.6002" width="0.1524" layer="21"/>
+<wire x1="-2.8" y1="-1.6" x2="-1.0922" y2="-1.6002" width="0.1524" layer="21"/>
+<wire x1="-1.0922" y1="-1.6002" x2="2.794" y2="-1.6002" width="0.1524" layer="21"/>
+<wire x1="1.45" y1="1" x2="1.45" y2="-1.1" width="0.127" layer="48"/>
+<rectangle x1="-0.4572" y1="-0.9144" x2="0.4572" y2="0.9144" layer="35"/>
+<rectangle x1="-2.794" y1="-1.6002" x2="-1.2192" y2="1.6002" layer="51"/>
+<rectangle x1="-1.2446" y1="-1.6256" x2="-0.6858" y2="1.6002" layer="21"/>
+<rectangle x1="-2.8702" y1="1.4478" x2="-1.1176" y2="1.6002" layer="21"/>
+<rectangle x1="-2.8702" y1="-1.6002" x2="-1.1684" y2="-1.4478" layer="21"/>
+<smd name="+" x="-2.413" y="0" dx="1.9812" dy="2.5908" layer="1" roundness="10"/>
+<smd name="-" x="2.413" y="0" dx="1.9812" dy="2.5908" layer="1" roundness="10"/>
+<text x="0" y="2.54" size="1.27" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="R0603" urn="urn:adsk.eagle:package:2539454/6" type="model" library_version="157">
@@ -366,6 +420,20 @@
 <description>Chip Resistor Network, ROHM MNR14 (see mnr_g.pdf)</description>
 <packageinstances>
 <packageinstance name="R_4X0603"/>
+</packageinstances>
+</package3d>
+<package3d name="LED3528" urn="urn:adsk.eagle:package:24609407/3" type="model" library_version="158">
+<packageinstances>
+<packageinstance name="LED3528"/>
+</packageinstances>
+</package3d>
+<package3d name="CTANT_TYPE_C" urn="urn:adsk.eagle:package:52489374/1" type="box" library_version="158">
+<description>TYPE C tantillum capacitor 6,0x3,2mm package&lt;br&gt;
+TYPE C / EIA 6032 / &lt;br&gt;
+&lt;br&gt;
+&lt;i&gt;Igor Odaikin, Feb 2021&lt;/i&gt;</description>
+<packageinstances>
+<packageinstance name="CTANT_TYPE_C"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -875,71 +943,6 @@ Edit by Igor Odaikin for mb_m50_v2 pcb, 2019</description>
 </package3d>
 </packages3d>
 </library>
-<library name="rc">
-<packages>
-<package name="CTANT_TYPE_C">
-<description>TYPE C tantillum capacitor 6,0x3,2mm package&lt;br&gt;
-TYPE C / EIA 6032 / &lt;br&gt;
-&lt;br&gt;
-&lt;i&gt;Igor Odaikin, Feb 2021&lt;/i&gt;</description>
-<wire x1="-3.556" y1="1.651" x2="3.556" y2="1.651" width="0.0508" layer="39"/>
-<wire x1="3.556" y1="-1.651" x2="-3.556" y2="-1.651" width="0.0508" layer="39"/>
-<wire x1="-3.556" y1="-1.651" x2="-3.556" y2="1.651" width="0.0508" layer="39"/>
-<wire x1="3.556" y1="1.651" x2="3.556" y2="-1.651" width="0.0508" layer="39"/>
-<wire x1="-2.794" y1="-1.6002" x2="-2.794" y2="1.6002" width="0.1524" layer="51"/>
-<wire x1="-2.8956" y1="1.0922" x2="-2.8956" y2="-1.0922" width="0.254" layer="51"/>
-<wire x1="2.794" y1="1.6002" x2="-2.794" y2="1.6002" width="0.1524" layer="51"/>
-<wire x1="2.794" y1="-1.6002" x2="-2.794" y2="-1.6002" width="0.1524" layer="51"/>
-<wire x1="2.8956" y1="1.0922" x2="2.8956" y2="-1.0922" width="0.254" layer="51"/>
-<wire x1="2.794" y1="-1.6002" x2="2.794" y2="1.6002" width="0.1524" layer="51"/>
-<wire x1="-3.8608" y1="1.5494" x2="-3.4544" y2="1.5494" width="0.1524" layer="21"/>
-<wire x1="-3.6576" y1="1.7526" x2="-3.6576" y2="1.3462" width="0.1524" layer="21"/>
-<wire x1="-2.8" y1="1.6" x2="-1.0922" y2="1.6002" width="0.1524" layer="21"/>
-<wire x1="-1.0922" y1="1.6002" x2="2.794" y2="1.6002" width="0.1524" layer="21"/>
-<wire x1="-2.8" y1="-1.6" x2="-1.0922" y2="-1.6002" width="0.1524" layer="21"/>
-<wire x1="-1.0922" y1="-1.6002" x2="2.794" y2="-1.6002" width="0.1524" layer="21"/>
-<wire x1="1.45" y1="1" x2="1.45" y2="-1.1" width="0.127" layer="48"/>
-<rectangle x1="-0.4572" y1="-0.9144" x2="0.4572" y2="0.9144" layer="35"/>
-<rectangle x1="-2.794" y1="-1.6002" x2="-1.2192" y2="1.6002" layer="51"/>
-<rectangle x1="-1.2446" y1="-1.6256" x2="-0.6858" y2="1.6002" layer="21"/>
-<rectangle x1="-2.8702" y1="1.4478" x2="-1.1176" y2="1.6002" layer="21"/>
-<rectangle x1="-2.8702" y1="-1.6002" x2="-1.1684" y2="-1.4478" layer="21"/>
-<smd name="+" x="-2.413" y="0" dx="1.9812" dy="2.5908" layer="1" roundness="10"/>
-<smd name="-" x="2.413" y="0" dx="1.9812" dy="2.5908" layer="1" roundness="10"/>
-<text x="0" y="2.54" size="1.27" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
-</package>
-<package name="LED3528" urn="urn:adsk.eagle:footprint:24609405/2">
-<smd name="4" x="1.5" y="0.7" dx="1" dy="1.5" layer="1" rot="R90"/>
-<smd name="3" x="-1.5" y="0.7" dx="1" dy="1.5" layer="1" rot="R90"/>
-<smd name="2" x="-1.5" y="-0.7" dx="1" dy="1.5" layer="1" rot="R90"/>
-<smd name="1" x="1.5" y="-0.7" dx="1" dy="1.5" layer="1" rot="R90"/>
-<wire x1="-1.6" y1="1.4" x2="1.6" y2="1.4" width="0.127" layer="51"/>
-<wire x1="1.6" y1="1.4" x2="1.6" y2="-0.6" width="0.127" layer="51"/>
-<wire x1="1.6" y1="-0.6" x2="1.6" y2="-1.4" width="0.127" layer="51"/>
-<wire x1="1.6" y1="-1.4" x2="0.8" y2="-1.4" width="0.127" layer="51"/>
-<wire x1="0.8" y1="-1.4" x2="-1.6" y2="-1.4" width="0.127" layer="51"/>
-<wire x1="-1.6" y1="-1.4" x2="-1.6" y2="1.4" width="0.127" layer="51"/>
-<wire x1="0.8" y1="-1.4" x2="1.6" y2="-0.6" width="0.127" layer="51"/>
-<wire x1="-1.6" y1="1.4" x2="1.6" y2="1.4" width="0.127" layer="21"/>
-<wire x1="1.6" y1="0.05" x2="1.6" y2="-0.05" width="0.127" layer="21"/>
-<wire x1="-1.6" y1="0.05" x2="-1.6" y2="-0.05" width="0.127" layer="21"/>
-<wire x1="-1.6" y1="-1.35" x2="-1.6" y2="-1.4" width="0.127" layer="21"/>
-<wire x1="-1.6" y1="-1.4" x2="1.6" y2="-1.4" width="0.127" layer="21"/>
-<wire x1="1.6" y1="-1.4" x2="1.6" y2="-1.35" width="0.127" layer="21"/>
-<wire x1="1.6" y1="1.4" x2="1.6" y2="1.35" width="0.127" layer="21"/>
-<wire x1="-1.6" y1="1.4" x2="-1.6" y2="1.35" width="0.127" layer="21"/>
-<text x="0" y="2.1" size="1" layer="25" font="vector" ratio="12" align="center">&gt;NAME</text>
-<circle x="0" y="0" radius="1" width="0.1" layer="51"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="LED3528" urn="urn:adsk.eagle:package:24609407/3" type="model">
-<packageinstances>
-<packageinstance name="LED3528"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1139,7 +1142,7 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="rc" package="CTANT_TYPE_C" value="100u " x="-6.4516" y="6.477" locked="yes" smashed="yes" rot="R270">
+<element name="C1" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="CTANT_TYPE_C" package3d_urn="urn:adsk.eagle:package:52489374/1" value="100u " x="-6.4516" y="6.477" locked="yes" smashed="yes" rot="R270">
 <attribute name="NAME" x="-8.509" y="4.2672" locked="yes" size="0.9144" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="PACKAGE" value="TYPE C" x="-6.4516" y="6.477" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="-9.9314" y="4.2672" locked="yes" size="0.7112" layer="27" rot="R90"/>
@@ -1200,7 +1203,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-9.652" y="-5.842" locked="yes" size="0.9144" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="-7.6708" y="-7.0104" locked="yes" size="0.7112" layer="27" ratio="11" rot="R90"/>
 </element>
-<element name="HL1" library="rc" package="LED3528" package3d_urn="urn:adsk.eagle:package:24609407/3" value="LED_RGB-KAA-3528RGBS" x="-14" y="15" locked="yes" smashed="yes" rot="R90">
+<element name="HL1" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="LED3528" package3d_urn="urn:adsk.eagle:package:24609407/3" value="LED_RGB-KAA-3528RGBS" x="-14" y="15" locked="yes" smashed="yes" rot="R90">
 <attribute name="MANF" value="Kingbright" x="-14" y="15" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANF#" value="KAA-3528RGBS" x="-14" y="15" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="-15.1292" y="17.5996" locked="yes" size="0.9144" layer="25" font="vector" ratio="12"/>

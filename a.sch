@@ -678,6 +678,546 @@ DIN A4, landscape with extra doc field</description>
 <smd name="8" x="0.9" y="1.2" dx="0.8" dy="0.5" layer="1"/>
 <text x="0" y="0" size="0.75" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
 </package>
+<package name="LED3528" urn="urn:adsk.eagle:footprint:24609405/2" library_version="158">
+<smd name="4" x="1.5" y="0.7" dx="1" dy="1.5" layer="1" rot="R90"/>
+<smd name="3" x="-1.5" y="0.7" dx="1" dy="1.5" layer="1" rot="R90"/>
+<smd name="2" x="-1.5" y="-0.7" dx="1" dy="1.5" layer="1" rot="R90"/>
+<smd name="1" x="1.5" y="-0.7" dx="1" dy="1.5" layer="1" rot="R90"/>
+<wire x1="-1.6" y1="1.4" x2="1.6" y2="1.4" width="0.127" layer="51"/>
+<wire x1="1.6" y1="1.4" x2="1.6" y2="-0.6" width="0.127" layer="51"/>
+<wire x1="1.6" y1="-0.6" x2="1.6" y2="-1.4" width="0.127" layer="51"/>
+<wire x1="1.6" y1="-1.4" x2="0.8" y2="-1.4" width="0.127" layer="51"/>
+<wire x1="0.8" y1="-1.4" x2="-1.6" y2="-1.4" width="0.127" layer="51"/>
+<wire x1="-1.6" y1="-1.4" x2="-1.6" y2="1.4" width="0.127" layer="51"/>
+<wire x1="0.8" y1="-1.4" x2="1.6" y2="-0.6" width="0.127" layer="51"/>
+<wire x1="-1.6" y1="1.4" x2="1.6" y2="1.4" width="0.127" layer="21"/>
+<wire x1="1.6" y1="0.05" x2="1.6" y2="-0.05" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="0.05" x2="-1.6" y2="-0.05" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="-1.35" x2="-1.6" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="-1.4" x2="1.6" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="1.6" y1="-1.4" x2="1.6" y2="-1.35" width="0.127" layer="21"/>
+<wire x1="1.6" y1="1.4" x2="1.6" y2="1.35" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="1.4" x2="-1.6" y2="1.35" width="0.127" layer="21"/>
+<text x="0" y="2.1" size="1" layer="25" font="vector" ratio="12" align="center">&gt;NAME</text>
+<circle x="0" y="0" radius="1" width="0.1" layer="51"/>
+</package>
+<package name="LED2020" urn="urn:adsk.eagle:footprint:24467157/2" library_version="158">
+<description>https://datasheet.lcsc.com/szlcsc/1810231210_Foshan-NationStar-Optoelectronics-FM-B2020RGBA-HG_C108793.pdf</description>
+<smd name="+" x="0.85" y="-0.55" dx="0.8" dy="0.7" layer="1" rot="R180"/>
+<smd name="B" x="0.85" y="0.55" dx="0.8" dy="0.7" layer="1" rot="R180"/>
+<smd name="R" x="-0.85" y="0.55" dx="0.8" dy="0.7" layer="1" rot="R180"/>
+<smd name="G" x="-0.85" y="-0.55" dx="0.8" dy="0.7" layer="1" rot="R180"/>
+<wire x1="-1.05" y1="-1.05" x2="1.05" y2="-1.05" width="0.1" layer="51"/>
+<wire x1="1.05" y1="-1.05" x2="1.05" y2="1.05" width="0.1" layer="51"/>
+<wire x1="1.05" y1="1.05" x2="-0.6" y2="1.05" width="0.1" layer="51"/>
+<wire x1="-0.6" y1="1.05" x2="-1.05" y2="1.05" width="0.1" layer="51"/>
+<wire x1="-1.05" y1="1.05" x2="-1.05" y2="0.6" width="0.1" layer="51"/>
+<wire x1="-1.05" y1="0.6" x2="-1.05" y2="-1.05" width="0.1" layer="51"/>
+<wire x1="-0.6" y1="1.05" x2="-1.05" y2="0.6" width="0.1" layer="51"/>
+<wire x1="1.05" y1="1.05" x2="-1.05" y2="1.05" width="0.1" layer="21"/>
+<wire x1="-1.05" y1="0.05" x2="-1.05" y2="-0.05" width="0.1" layer="21"/>
+<wire x1="1.05" y1="0.05" x2="1.05" y2="-0.05" width="0.1" layer="21"/>
+<wire x1="1.05" y1="-1.05" x2="-1.05" y2="-1.05" width="0.1" layer="21"/>
+<text x="0" y="0" size="1" layer="25" font="vector" ratio="15" rot="R180" align="center">&gt;NAME</text>
+</package>
+<package name="LED3528-HOLE" urn="urn:adsk.eagle:footprint:24609406/4" library_version="158">
+<smd name="4" x="-2.35" y="0.7" dx="1" dy="1" layer="1" rot="R90"/>
+<smd name="3" x="2.35" y="0.7" dx="1" dy="1" layer="1" rot="R90"/>
+<smd name="2" x="2.35" y="-0.7" dx="1" dy="1" layer="1" rot="R90"/>
+<smd name="1" x="-2.35" y="-0.7" dx="1" dy="1" layer="1" rot="R90"/>
+<wire x1="1.65" y1="-1.15" x2="1.65" y2="1.15" width="0.000253125" layer="20"/>
+<wire x1="1.65" y1="1.15" x2="1.15" y2="1.65" width="0.000253125" layer="20" curve="90"/>
+<wire x1="1.15" y1="1.65" x2="-1.15" y2="1.65" width="0.000253125" layer="20"/>
+<wire x1="-1.15" y1="1.65" x2="-1.65" y2="1.15" width="0.000253125" layer="20" curve="90"/>
+<wire x1="-1.65" y1="1.15" x2="-1.65" y2="-1.15" width="0.000253125" layer="20"/>
+<wire x1="-1.65" y1="-1.15" x2="-1.15" y2="-1.65" width="0.000253125" layer="20" curve="90"/>
+<wire x1="-1.15" y1="-1.65" x2="1.15" y2="-1.65" width="0.000253125" layer="20"/>
+<wire x1="1.15" y1="-1.65" x2="1.65" y2="-1.15" width="0.000253125" layer="20" curve="90"/>
+<wire x1="1.6" y1="1.4" x2="-1.6" y2="1.4" width="0.1" layer="52"/>
+<wire x1="-1.6" y1="1.4" x2="-1.6" y2="-1.4" width="0.1" layer="52"/>
+<wire x1="-1.6" y1="-1.4" x2="1.6" y2="-1.4" width="0.1" layer="52"/>
+<wire x1="1.6" y1="-1.4" x2="1.6" y2="1.4" width="0.1" layer="52"/>
+<text x="0" y="2.2" size="1" layer="22" font="vector" ratio="12" align="center">&gt;NAME</text>
+<circle x="0" y="0" radius="1" width="0.1" layer="52"/>
+</package>
+<package name="E6C0606RGBC3UDA" urn="urn:adsk.eagle:footprint:33885789/1" library_version="158">
+<description>&lt;a href = https://datasheet.lcsc.com/lcsc/1912111437_EKINGLUX-E6C0606RGBC3UDA_C375569.pdf&gt;Datasheet&lt;/a&gt;</description>
+<smd name="1" x="-0.7" y="0.5" dx="0.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="2" x="0.7" y="0.5" dx="0.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="4" x="0.7" y="-0.5" dx="0.7" dy="0.6" layer="1" rot="R90"/>
+<smd name="3" x="-0.7" y="-0.5" dx="0.7" dy="0.6" layer="1" rot="R90"/>
+<wire x1="-0.8" y1="0.8" x2="-0.8" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="-0.8" x2="0.8" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="0.8" y1="-0.8" x2="0.8" y2="0.8" width="0.1" layer="51"/>
+<wire x1="0.8" y1="0.8" x2="-0.8" y2="0.8" width="0.1" layer="51"/>
+<text x="0" y="0" size="0.5" layer="25" font="vector" ratio="12" align="center">&gt;NAME</text>
+</package>
+<package name="19-037A/RSGHBHW1-S03/2T" urn="urn:adsk.eagle:footprint:33895816/1" library_version="158">
+<description>&lt;a href = https://datasheet.lcsc.com/lcsc/1811141822_Everlight-Elec-19-037A-RSGHBHW1-S03-2T_C282128.pdf&gt;Datasheet&lt;/a&gt;</description>
+<smd name="3" x="-0.8" y="-0.45" dx="0.55" dy="0.8" layer="1" rot="R90"/>
+<smd name="4" x="0.8" y="-0.45" dx="0.55" dy="0.8" layer="1" rot="R90"/>
+<smd name="2" x="-0.8" y="0.45" dx="0.55" dy="0.8" layer="1" rot="R90"/>
+<smd name="1" x="0.8" y="0.45" dx="0.55" dy="0.8" layer="1" rot="R90"/>
+<wire x1="-0.8" y1="0.8" x2="-0.8" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="-0.8" x2="0.8" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="0.8" y1="-0.8" x2="0.8" y2="0.8" width="0.1" layer="51"/>
+<wire x1="0.8" y1="0.8" x2="-0.8" y2="0.8" width="0.1" layer="51"/>
+<wire x1="-0.25" y1="0.8" x2="0.25" y2="0.8" width="0.1" layer="21"/>
+<wire x1="-0.25" y1="-0.8" x2="0.25" y2="-0.8" width="0.1" layer="21"/>
+<rectangle x1="0.15" y1="0.15" x2="0.8" y2="0.8" layer="51"/>
+<text x="0" y="1.25" size="0.7" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+</package>
+<package name="MHPA0808RGBDT" urn="urn:adsk.eagle:footprint:45704097/1" library_version="158">
+<smd name="4" x="-0.275" y="0.275" dx="0.35" dy="0.35" layer="1" rot="R90" stop="no"/>
+<smd name="1" x="0.275" y="0.275" dx="0.35" dy="0.35" layer="1" rot="R90" stop="no"/>
+<smd name="3" x="-0.275" y="-0.275" dx="0.35" dy="0.35" layer="1" rot="R90" stop="no"/>
+<smd name="2" x="0.275" y="-0.275" dx="0.35" dy="0.35" layer="1" rot="R90" stop="no"/>
+<rectangle x1="-0.475" y1="0.075" x2="-0.075" y2="0.475" layer="29"/>
+<rectangle x1="0.075" y1="0.075" x2="0.475" y2="0.475" layer="29"/>
+<rectangle x1="-0.475" y1="-0.475" x2="-0.075" y2="-0.075" layer="29"/>
+<rectangle x1="0.075" y1="-0.475" x2="0.475" y2="-0.075" layer="29"/>
+<text x="0" y="0" size="0.3" layer="25" font="vector" align="center">&gt;NAME</text>
+<wire x1="-0.4" y1="0.4" x2="-0.4" y2="-0.4" width="0.05" layer="51"/>
+<wire x1="-0.4" y1="-0.4" x2="0.4" y2="-0.4" width="0.05" layer="51"/>
+<wire x1="0.4" y1="-0.4" x2="0.4" y2="0.4" width="0.05" layer="51"/>
+<wire x1="0.4" y1="0.4" x2="-0.4" y2="0.4" width="0.05" layer="51"/>
+</package>
+<package name="LTST-C19HE1WT" urn="urn:adsk.eagle:footprint:47085865/1" library_version="158">
+<circle x="-1.25" y="1.25" radius="0.1" width="0.1524" layer="21"/>
+<wire x1="-0.95" y1="1.35" x2="0.95" y2="1.35" width="0.1524" layer="21"/>
+<wire x1="0.95" y1="1.35" x2="0.95" y2="-1.35" width="0.1524" layer="21"/>
+<wire x1="0.95" y1="-1.35" x2="-0.95" y2="-1.35" width="0.1524" layer="21"/>
+<wire x1="-0.95" y1="-1.35" x2="-0.95" y2="1.35" width="0.1524" layer="21"/>
+<smd name="+" x="-0.425" y="-0.725" dx="0.65" dy="0.85" layer="1"/>
+<smd name="B" x="0.425" y="-0.725" dx="0.65" dy="0.85" layer="1"/>
+<smd name="G" x="0.425" y="0.725" dx="0.65" dy="0.85" layer="1"/>
+<smd name="R" x="-0.425" y="0.725" dx="0.65" dy="0.85" layer="1"/>
+<text x="0" y="1.75" size="0.6" layer="21" font="vector" ratio="15" rot="R180" align="center">&gt;NAME</text>
+</package>
+<package name="CTANT_TYPE_C" urn="urn:adsk.eagle:footprint:52489373/1" library_version="158">
+<description>TYPE C tantillum capacitor 6,0x3,2mm package&lt;br&gt;
+TYPE C / EIA 6032 / &lt;br&gt;
+&lt;br&gt;
+&lt;i&gt;Igor Odaikin, Feb 2021&lt;/i&gt;</description>
+<wire x1="-3.556" y1="1.651" x2="3.556" y2="1.651" width="0.0508" layer="39"/>
+<wire x1="3.556" y1="-1.651" x2="-3.556" y2="-1.651" width="0.0508" layer="39"/>
+<wire x1="-3.556" y1="-1.651" x2="-3.556" y2="1.651" width="0.0508" layer="39"/>
+<wire x1="3.556" y1="1.651" x2="3.556" y2="-1.651" width="0.0508" layer="39"/>
+<wire x1="-2.794" y1="-1.6002" x2="-2.794" y2="1.6002" width="0.1524" layer="51"/>
+<wire x1="-2.8956" y1="1.0922" x2="-2.8956" y2="-1.0922" width="0.254" layer="51"/>
+<wire x1="2.794" y1="1.6002" x2="-2.794" y2="1.6002" width="0.1524" layer="51"/>
+<wire x1="2.794" y1="-1.6002" x2="-2.794" y2="-1.6002" width="0.1524" layer="51"/>
+<wire x1="2.8956" y1="1.0922" x2="2.8956" y2="-1.0922" width="0.254" layer="51"/>
+<wire x1="2.794" y1="-1.6002" x2="2.794" y2="1.6002" width="0.1524" layer="51"/>
+<wire x1="-3.8608" y1="1.5494" x2="-3.4544" y2="1.5494" width="0.1524" layer="21"/>
+<wire x1="-3.6576" y1="1.7526" x2="-3.6576" y2="1.3462" width="0.1524" layer="21"/>
+<wire x1="-2.8" y1="1.6" x2="-1.0922" y2="1.6002" width="0.1524" layer="21"/>
+<wire x1="-1.0922" y1="1.6002" x2="2.794" y2="1.6002" width="0.1524" layer="21"/>
+<wire x1="-2.8" y1="-1.6" x2="-1.0922" y2="-1.6002" width="0.1524" layer="21"/>
+<wire x1="-1.0922" y1="-1.6002" x2="2.794" y2="-1.6002" width="0.1524" layer="21"/>
+<wire x1="1.45" y1="1" x2="1.45" y2="-1.1" width="0.127" layer="48"/>
+<rectangle x1="-0.4572" y1="-0.9144" x2="0.4572" y2="0.9144" layer="35"/>
+<rectangle x1="-2.794" y1="-1.6002" x2="-1.2192" y2="1.6002" layer="51"/>
+<rectangle x1="-1.2446" y1="-1.6256" x2="-0.6858" y2="1.6002" layer="21"/>
+<rectangle x1="-2.8702" y1="1.4478" x2="-1.1176" y2="1.6002" layer="21"/>
+<rectangle x1="-2.8702" y1="-1.6002" x2="-1.1684" y2="-1.4478" layer="21"/>
+<smd name="+" x="-2.413" y="0" dx="1.9812" dy="2.5908" layer="1" roundness="10"/>
+<smd name="-" x="2.413" y="0" dx="1.9812" dy="2.5908" layer="1" roundness="10"/>
+<text x="0" y="2.54" size="1.27" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+</package>
+<package name="153CLV-0810" urn="urn:adsk.eagle:footprint:4855521/1" library_version="158">
+<description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt;&lt;p&gt;
+SMD (Chip) Long Life Vertical 153 CLV&lt;p&gt;
+http://www.bccomponents.com/</description>
+<wire x1="3.3" y1="-4.2" x2="-4.2" y2="-4.2" width="0.2032" layer="21"/>
+<wire x1="-4.2" y1="-4.2" x2="-4.2" y2="-1.5" width="0.2032" layer="21"/>
+<wire x1="-4.2" y1="-1.5" x2="-4.2" y2="1.5" width="0.2032" layer="51"/>
+<wire x1="-4.2" y1="1.5" x2="-4.2" y2="4.2" width="0.2032" layer="21"/>
+<wire x1="-4.2" y1="4.2" x2="3.3" y2="4.2" width="0.2032" layer="21"/>
+<wire x1="4.2" y1="3.3" x2="4.2" y2="1.5" width="0.2032" layer="21"/>
+<wire x1="4.2" y1="1.5" x2="4.2" y2="-1.5" width="0.2032" layer="51"/>
+<wire x1="4.2" y1="-1.5" x2="4.2" y2="-3.3" width="0.2032" layer="21"/>
+<wire x1="4.2" y1="-3.3" x2="3.3" y2="-4.2" width="0.2032" layer="21"/>
+<wire x1="3.3" y1="4.2" x2="4.2" y2="3.3" width="0.2032" layer="21"/>
+<wire x1="-3.65" y1="-1.4" x2="3.65" y2="-1.4" width="0.2032" layer="21" curve="138.030204"/>
+<wire x1="-3.65" y1="-1.4" x2="-3.65" y2="1.4" width="0.2032" layer="51" curve="-41.969796"/>
+<wire x1="-3.65" y1="1.4" x2="3.65" y2="1.4" width="0.2032" layer="21" curve="-138.030204"/>
+<wire x1="3.65" y1="-1.4" x2="3.65" y2="1.4" width="0.2032" layer="51" curve="41.969796"/>
+<smd name="+" x="3.25" y="0" dx="3.5" dy="2.5" layer="1"/>
+<smd name="-" x="-3.25" y="0" dx="3.5" dy="2.5" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+</package>
+<package name="C2917" urn="urn:adsk.eagle:footprint:4855520/1" library_version="158">
+<wire x1="-3.5" y1="2.1" x2="3.5" y2="2.1" width="0.1016" layer="51"/>
+<wire x1="3.5" y1="2.1" x2="3.5" y2="-2.1" width="0.1016" layer="51"/>
+<wire x1="3.5" y1="-2.1" x2="-3.5" y2="-2.1" width="0.1016" layer="51"/>
+<wire x1="-3.5" y1="-2.1" x2="-3.5" y2="2.1" width="0.1016" layer="51"/>
+<wire x1="-3.5" y1="2.1" x2="-3.5" y2="1.6" width="0.15" layer="21"/>
+<wire x1="-3.5" y1="2.1" x2="-1.6" y2="2.1" width="0.15" layer="21"/>
+<wire x1="-1.6" y1="2.1" x2="-1.5" y2="2.1" width="0.15" layer="21"/>
+<wire x1="-1.5" y1="2.1" x2="3.5" y2="2.1" width="0.15" layer="21"/>
+<wire x1="3.5" y1="2.1" x2="3.5" y2="1.6" width="0.15" layer="21"/>
+<wire x1="3.5" y1="-1.6" x2="3.5" y2="-2.1" width="0.15" layer="21"/>
+<wire x1="3.5" y1="-2.1" x2="-1.5" y2="-2.1" width="0.15" layer="21"/>
+<wire x1="-1.6" y1="-2.1" x2="-3.5" y2="-2.1" width="0.15" layer="21"/>
+<wire x1="-3.5" y1="-2.1" x2="-3.5" y2="-1.6" width="0.15" layer="21"/>
+<wire x1="-1.6" y1="2.1" x2="-1.6" y2="-2.1" width="0.15" layer="21"/>
+<wire x1="-1.6" y1="-2.1" x2="-1.5" y2="-2.1" width="0.15" layer="21"/>
+<wire x1="-1.5" y1="-2.1" x2="-1.5" y2="2.1" width="0.15" layer="21"/>
+<rectangle x1="-3.65" y1="-1.2" x2="-3.45" y2="1.2" layer="51"/>
+<rectangle x1="3.45" y1="-1.2" x2="3.65" y2="1.2" layer="51" rot="R180"/>
+<rectangle x1="-3.5" y1="-2.1" x2="-2.4" y2="2.1" layer="51"/>
+<smd name="+" x="-3.15" y="0" dx="2.4" dy="2.8" layer="1"/>
+<smd name="-" x="3.15" y="0" dx="2.4" dy="2.8" layer="1" rot="R180"/>
+<text x="0" y="0" size="1.016" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+</package>
+<package name="C3024" urn="urn:adsk.eagle:footprint:4855518/1" library_version="158">
+<wire x1="-4.6" y1="3.5" x2="-4.6" y2="-3.5" width="0.15" layer="21"/>
+<wire x1="-4.6" y1="-3.5" x2="4.6" y2="-3.5" width="0.15" layer="21"/>
+<wire x1="4.6" y1="-3.5" x2="4.6" y2="3.5" width="0.15" layer="21"/>
+<wire x1="4.6" y1="3.5" x2="-4.6" y2="3.5" width="0.15" layer="21"/>
+<smd name="+" x="-3.15" y="0" dx="6.6" dy="2.5" layer="1" rot="R90"/>
+<smd name="-" x="3.15" y="0" dx="6.6" dy="2.5" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.5" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="-1.1" y="2.9" size="1" layer="21" font="vector" ratio="15" align="center">+</text>
+</package>
+<package name="C_TH_6.3MM" urn="urn:adsk.eagle:footprint:4855523/1" library_version="158">
+<circle x="0" y="0" radius="3.15" width="0.127" layer="21"/>
+<pad name="+" x="-1.25" y="0" drill="0.8"/>
+<pad name="-" x="1.25" y="0" drill="0.8"/>
+<text x="0" y="1.504" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="-1.25" y="-1.25" size="1" layer="21" font="vector" ratio="15" align="center">+</text>
+</package>
+<package name="RADIAL_18MM" urn="urn:adsk.eagle:footprint:4855522/1" library_version="158">
+<circle x="0" y="0" radius="9" width="0.127" layer="21"/>
+<pad name="+" x="-3.75" y="0" drill="1"/>
+<pad name="-" x="3.75" y="0" drill="1"/>
+<text x="0" y="0" size="2" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="-3.8" y="2" size="1.27" layer="21" font="vector" ratio="15" align="center">+</text>
+</package>
+<package name="RADIAL_SIDE_10X17" urn="urn:adsk.eagle:footprint:4855524/1" library_version="158">
+<wire x1="5" y1="0" x2="5" y2="17" width="0.127" layer="21"/>
+<wire x1="5" y1="17" x2="-5" y2="17" width="0.127" layer="21"/>
+<wire x1="-5" y1="17" x2="-5" y2="0" width="0.127" layer="21"/>
+<wire x1="-5" y1="0" x2="-3.5" y2="0" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="0" x2="1.5" y2="0" width="0.127" layer="21"/>
+<wire x1="3.5" y1="0" x2="5" y2="0" width="0.127" layer="21"/>
+<pad name="+" x="-2.5" y="0" drill="0.8"/>
+<pad name="-" x="2.5" y="0" drill="0.8"/>
+<text x="-3.5" y="1.5" size="1.27" layer="21" font="vector" ratio="15" align="center">+</text>
+<text x="0" y="2.5" size="1.27" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+</package>
+<package name="SMD-8X5.4" urn="urn:adsk.eagle:footprint:6513886/1" library_version="158">
+<description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt;&lt;p&gt;
+SMD (Chip) Long Life Vertical 153 CLV&lt;p&gt;
+http://www.bccomponents.com/</description>
+<wire x1="3.3" y1="-4.2" x2="-4.2" y2="-4.2" width="0.2032" layer="21"/>
+<wire x1="-4.2" y1="-4.2" x2="-4.2" y2="-1.5" width="0.2032" layer="21"/>
+<wire x1="-4.2" y1="-1.5" x2="-4.2" y2="1.5" width="0.2032" layer="51"/>
+<wire x1="-4.2" y1="1.5" x2="-4.2" y2="4.2" width="0.2032" layer="21"/>
+<wire x1="-4.2" y1="4.2" x2="3.3" y2="4.2" width="0.2032" layer="21"/>
+<wire x1="4.2" y1="3.3" x2="4.2" y2="1.5" width="0.2032" layer="21"/>
+<wire x1="4.2" y1="1.5" x2="4.2" y2="-1.5" width="0.2032" layer="51"/>
+<wire x1="4.2" y1="-1.5" x2="4.2" y2="-3.3" width="0.2032" layer="21"/>
+<wire x1="4.2" y1="-3.3" x2="3.3" y2="-4.2" width="0.2032" layer="21"/>
+<wire x1="3.3" y1="4.2" x2="4.2" y2="3.3" width="0.2032" layer="21"/>
+<wire x1="-3.65" y1="-1.4" x2="3.65" y2="-1.4" width="0.2032" layer="21" curve="138.030204"/>
+<wire x1="-3.65" y1="-1.4" x2="-3.65" y2="1.4" width="0.2032" layer="51" curve="-41.969796"/>
+<wire x1="-3.65" y1="1.4" x2="3.65" y2="1.4" width="0.2032" layer="21" curve="-138.030204"/>
+<wire x1="3.65" y1="-1.4" x2="3.65" y2="1.4" width="0.2032" layer="51" curve="41.969796"/>
+<smd name="+" x="3.25" y="0" dx="3.5" dy="2.5" layer="1"/>
+<smd name="-" x="-3.25" y="0" dx="3.5" dy="2.5" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+</package>
+<package name="RADIAL_6.3X12.5" urn="urn:adsk.eagle:footprint:6513884/3" library_version="158">
+<circle x="0" y="0" radius="3.15" width="0.127" layer="21"/>
+<pad name="+" x="-1.25" y="0" drill="0.8"/>
+<pad name="-" x="1.25" y="0" drill="0.8"/>
+<text x="0" y="-1.5" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="-1.2" y="1.4" size="1.27" layer="21" font="vector" ratio="15" align="center">+</text>
+</package>
+<package name="RADIAL_6.3X12.5-RA" urn="urn:adsk.eagle:footprint:6513885/3" library_version="158">
+<pad name="+" x="-1.25" y="0" drill="0.8"/>
+<pad name="-" x="1.25" y="0" drill="0.8"/>
+<text x="0" y="7" size="2" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="-1.8" y="3" size="1.27" layer="21" font="vector" ratio="15" align="center">+</text>
+<wire x1="-3.15" y1="2" x2="-1.25" y2="2" width="0.127" layer="51"/>
+<wire x1="-1.25" y1="2" x2="1.25" y2="2" width="0.127" layer="51"/>
+<wire x1="1.25" y1="2" x2="3.15" y2="2" width="0.127" layer="51"/>
+<wire x1="3.15" y1="2" x2="3.15" y2="14.5" width="0.127" layer="51"/>
+<wire x1="3.15" y1="14.5" x2="-3.15" y2="14.5" width="0.127" layer="51"/>
+<wire x1="-3.15" y1="14.5" x2="-3.15" y2="2" width="0.127" layer="51"/>
+<wire x1="-1.25" y1="0" x2="-1.25" y2="2" width="0.2" layer="51"/>
+<wire x1="1.25" y1="0" x2="1.25" y2="2" width="0.2" layer="51"/>
+</package>
+<package name="RADIAL_SIDE_12.5X22" urn="urn:adsk.eagle:footprint:7188959/3" library_version="158">
+<pad name="+" x="-2.5" y="0" drill="0.8"/>
+<pad name="-" x="2.5" y="0" drill="0.8"/>
+<text x="-3.4" y="0.819" size="1.27" layer="51" font="vector" ratio="15" align="center">+</text>
+<text x="0" y="0" size="1.3" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<wire x1="-6.2" y1="1.5" x2="-2.5" y2="1.5" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="1.5" x2="2.5" y2="1.5" width="0.127" layer="51"/>
+<wire x1="2.5" y1="1.5" x2="6.25" y2="1.5" width="0.127" layer="51"/>
+<wire x1="6.25" y1="1.5" x2="6.25" y2="23.5" width="0.127" layer="51"/>
+<wire x1="6.25" y1="23.5" x2="-6.25" y2="23.5" width="0.127" layer="51"/>
+<wire x1="-6.25" y1="23.5" x2="-6.25" y2="1.5" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="0" x2="-2.5" y2="1.5" width="0.127" layer="51"/>
+<wire x1="2.5" y1="0" x2="2.5" y2="1.5" width="0.127" layer="51"/>
+</package>
+<package name="RADIAL_12.5X22" urn="urn:adsk.eagle:footprint:7188958/1" library_version="158">
+<circle x="0" y="0" radius="6.25" width="0.127" layer="21"/>
+<pad name="+" x="-2.5" y="0" drill="0.8"/>
+<pad name="-" x="2.5" y="0" drill="0.8"/>
+<text x="0" y="0" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="-2.5" y="1.5" size="1.27" layer="21" font="vector" ratio="15" align="center">+</text>
+</package>
+<package name="RADIAL_SIDE_8X21.5" urn="urn:adsk.eagle:footprint:7189321/2" library_version="158">
+<pad name="+" x="-1.75" y="0" drill="0.8"/>
+<pad name="-" x="1.75" y="0" drill="0.8"/>
+<text x="0" y="0" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="-2.75" y="1" size="1.27" layer="21" font="vector" ratio="15" align="center">+</text>
+<wire x1="-4" y1="2" x2="4" y2="2" width="0.1" layer="51"/>
+<wire x1="-4" y1="2" x2="-4" y2="23.5" width="0.1" layer="51"/>
+<wire x1="-4" y1="23.5" x2="4" y2="23.5" width="0.1" layer="51"/>
+<wire x1="4" y1="23.5" x2="4" y2="2" width="0.1" layer="51"/>
+<circle x="-1.75" y="0" radius="0.15" width="0.3" layer="51"/>
+<circle x="1.75" y="0" radius="0.15" width="0.3" layer="51"/>
+</package>
+<package name="RADIAL_8X21.5" urn="urn:adsk.eagle:footprint:7189319/2" library_version="158">
+<circle x="0" y="0" radius="4" width="0.127" layer="21"/>
+<pad name="+" x="-1.75" y="0" drill="0.8" shape="square"/>
+<pad name="-" x="1.75" y="0" drill="0.8"/>
+<text x="0" y="-1.5" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="-1.75" y="2" size="1.27" layer="21" font="vector" ratio="15" align="center">+</text>
+</package>
+<package name="RADIAL_5X11" urn="urn:adsk.eagle:footprint:10810348/1" library_version="158">
+<pad name="+" x="-1" y="0" drill="0.7"/>
+<pad name="-" x="1" y="0" drill="0.7"/>
+<circle x="0" y="0" radius="2.5" width="0.1" layer="21"/>
+<text x="0" y="1" size="0.5" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="-0.8" y="1.3" size="1.5" layer="21" font="vector" ratio="15" align="center">+</text>
+</package>
+<package name="RADIAL_SIDE_10X51.5" urn="urn:adsk.eagle:footprint:14510771/1" library_version="158">
+<pad name="+" x="-2.5" y="0" drill="0.8"/>
+<pad name="-" x="2.5" y="0" drill="0.8"/>
+<text x="-3.4" y="1.2" size="1.27" layer="21" font="vector" ratio="15" align="center">+</text>
+<text x="0" y="0" size="1.3" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<wire x1="-5" y1="1" x2="5" y2="1" width="0.127" layer="51"/>
+<wire x1="5" y1="1" x2="5" y2="52.5" width="0.127" layer="51"/>
+<wire x1="5" y1="52.5" x2="-5" y2="52.5" width="0.127" layer="51"/>
+<wire x1="-5" y1="52.5" x2="-5" y2="1" width="0.127" layer="51"/>
+</package>
+<package name="RADIAL_SIDE_18X41.5" urn="urn:adsk.eagle:footprint:14750868/1" library_version="158">
+<pad name="+" x="-2.5" y="0" drill="0.8"/>
+<pad name="-" x="2.5" y="0" drill="0.8"/>
+<text x="-3.4" y="1.2" size="1.27" layer="21" font="vector" ratio="15" align="center">+</text>
+<text x="0" y="0" size="1.3" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<wire x1="-9" y1="1" x2="9" y2="1" width="0.127" layer="51"/>
+<wire x1="9" y1="1" x2="9" y2="42.5" width="0.127" layer="51"/>
+<wire x1="9" y1="42.5" x2="-9" y2="42.5" width="0.127" layer="51"/>
+<wire x1="-9" y1="42.5" x2="-9" y2="1" width="0.127" layer="51"/>
+</package>
+<package name="RADIAL_13X41.5" urn="urn:adsk.eagle:footprint:19332623/1" library_version="158">
+<pad name="+" x="-2.5" y="0" drill="0.9"/>
+<pad name="-" x="2.5" y="0" drill="0.9"/>
+<circle x="0" y="0" radius="6.5" width="0.1" layer="21"/>
+<text x="0" y="0" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="-2.5" y="1.5" size="1" layer="21" font="vector" ratio="15" align="center">+</text>
+</package>
+<package name="RADIAL_8X12" urn="urn:adsk.eagle:footprint:27899926/1" library_version="158">
+<circle x="0" y="0" radius="4" width="0.1" layer="21"/>
+<pad name="+" x="-1.75" y="0" drill="0.8" shape="square"/>
+<pad name="-" x="1.75" y="0" drill="0.8"/>
+<text x="0" y="0" size="1" layer="25" font="vector" ratio="12" align="center">&gt;NAME</text>
+<text x="-1.75" y="1.75" size="1" layer="21" font="vector" ratio="12" align="center">+</text>
+</package>
+<package name="CPOL_D=10XL=10.5" urn="urn:adsk.eagle:footprint:32903741/2" library_version="158">
+<wire x1="-5" y1="1.3117" x2="-5" y2="3.1538" width="0.12" layer="21"/>
+<wire x1="-5" y1="3.1538" x2="-3.1538" y2="5" width="0.12" layer="21"/>
+<wire x1="-3.1538" y1="5" x2="5" y2="5" width="0.12" layer="21"/>
+<wire x1="5" y1="5" x2="5" y2="1.3" width="0.12" layer="21"/>
+<wire x1="-5" y1="-1.3117" x2="-5" y2="-3.1538" width="0.12" layer="21"/>
+<wire x1="-5" y1="-3.1538" x2="-3.1538" y2="-5" width="0.12" layer="21"/>
+<wire x1="-3.1538" y1="-5" x2="5" y2="-5" width="0.12" layer="21"/>
+<wire x1="5" y1="-5" x2="5" y2="-1.3" width="0.12" layer="21"/>
+<smd name="+" x="-4.35" y="0" dx="4.4" dy="2.1" layer="1"/>
+<smd name="-" x="4.35" y="0" dx="4.4" dy="2.1" layer="1"/>
+<text x="0" y="0" size="1.5" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<rectangle x1="-6.4" y1="-0.9" x2="-2.3" y2="0.9" layer="51"/>
+<rectangle x1="2.3" y1="-0.9" x2="6.4" y2="0.9" layer="51"/>
+<rectangle x1="3.1" y1="1.3" x2="5" y2="5" layer="21"/>
+<rectangle x1="3.1" y1="-5" x2="5" y2="-1.3" layer="21"/>
+</package>
+<package name="CAP_SMD_6.3X7.7" urn="urn:adsk.eagle:footprint:32940657/1" library_version="158">
+<wire x1="-3.25" y1="3.25" x2="2.45" y2="3.25" width="0.1016" layer="51"/>
+<wire x1="2.45" y1="3.25" x2="3.25" y2="2.45" width="0.1016" layer="51"/>
+<wire x1="3.25" y1="2.45" x2="3.25" y2="-2.45" width="0.1016" layer="51"/>
+<wire x1="3.25" y1="-2.45" x2="2.45" y2="-3.25" width="0.1016" layer="51"/>
+<wire x1="2.45" y1="-3.25" x2="-3.25" y2="-3.25" width="0.1016" layer="51"/>
+<wire x1="-3.25" y1="-3.25" x2="-3.25" y2="3.25" width="0.1016" layer="51"/>
+<wire x1="-3" y1="0.775" x2="2.975" y2="0.85" width="0.1016" layer="21" curve="-149.753145"/>
+<wire x1="-3.25" y1="0.8" x2="-3.25" y2="3.25" width="0.1016" layer="21"/>
+<wire x1="-3.25" y1="3.25" x2="2.45" y2="3.25" width="0.1016" layer="21"/>
+<wire x1="2.45" y1="3.25" x2="3.25" y2="2.45" width="0.1016" layer="21"/>
+<wire x1="3.25" y1="-2.45" x2="2.45" y2="-3.25" width="0.1016" layer="21"/>
+<wire x1="2.45" y1="-3.25" x2="-3.25" y2="-3.25" width="0.1016" layer="21"/>
+<wire x1="-3.25" y1="-3.25" x2="-3.25" y2="-0.7" width="0.1016" layer="21"/>
+<wire x1="3" y1="-0.775" x2="-2.975" y2="-0.85" width="0.1016" layer="21" curve="-149.753145"/>
+<circle x="0" y="0" radius="3.1" width="0.1016" layer="51"/>
+<smd name="-" x="-2.35" y="0" dx="2.8" dy="1" layer="1"/>
+<smd name="+" x="2.35" y="0" dx="2.8" dy="1" layer="1"/>
+<text x="0" y="0" size="1.5" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<polygon width="0.1016" layer="51">
+<vertex x="-2.2" y="2.15" curve="88.581463"/>
+<vertex x="-2.2" y="-2.15"/>
+</polygon>
+</package>
+<package name="RADIAL_10X12.5" urn="urn:adsk.eagle:footprint:34281395/1" library_version="158">
+<circle x="0" y="0" radius="5" width="0.1" layer="21"/>
+<pad name="+" x="-2.5" y="0" drill="0.8" shape="square"/>
+<pad name="-" x="2.5" y="0" drill="0.8"/>
+<text x="0" y="0" size="1" layer="25" font="vector" ratio="12" align="center">&gt;NAME</text>
+<text x="-2.5" y="1.75" size="1" layer="21" font="vector" ratio="12" align="center">+</text>
+</package>
+<package name="RADIAL_10X12.5-RA" urn="urn:adsk.eagle:footprint:37197089/1" library_version="158">
+<pad name="+" x="-2.5" y="0" drill="0.8" shape="square"/>
+<pad name="-" x="2.5" y="0" drill="0.8"/>
+<text x="0" y="2.75" size="1" layer="25" font="vector" ratio="12" align="center">&gt;NAME</text>
+<text x="-2.5" y="1.75" size="1" layer="21" font="vector" ratio="12" align="center">+</text>
+<wire x1="-5" y1="13.5" x2="5" y2="13.5" width="0.1" layer="21"/>
+<wire x1="-5" y1="13.5" x2="-5" y2="1" width="0.1" layer="21"/>
+<wire x1="-5" y1="1" x2="5" y2="1" width="0.1" layer="21"/>
+<wire x1="5" y1="1" x2="5" y2="13.5" width="0.1" layer="21"/>
+<rectangle x1="-2.75" y1="0" x2="-2.25" y2="1" layer="51"/>
+<rectangle x1="2.25" y1="0" x2="2.75" y2="1" layer="51"/>
+</package>
+<package name="RADIAL_10X12.5-LA" urn="urn:adsk.eagle:footprint:37279103/1" library_version="114" library_locally_modified="yes">
+<pad name="+" x="2.5" y="0" drill="0.8" shape="square"/>
+<pad name="-" x="-2.5" y="0" drill="0.8"/>
+<text x="0" y="2.75" size="1" layer="25" font="vector" ratio="12" align="center">&gt;NAME</text>
+<text x="2.5" y="1.75" size="1" layer="21" font="vector" ratio="12" align="center">+</text>
+<wire x1="-5" y1="13.5" x2="5" y2="13.5" width="0.1" layer="21"/>
+<wire x1="-5" y1="13.5" x2="-5" y2="1" width="0.1" layer="21"/>
+<wire x1="-5" y1="1" x2="5" y2="1" width="0.1" layer="21"/>
+<wire x1="5" y1="1" x2="5" y2="13.5" width="0.1" layer="21"/>
+<rectangle x1="-2.75" y1="0" x2="-2.25" y2="1" layer="51"/>
+<rectangle x1="2.25" y1="0" x2="2.75" y2="1" layer="51"/>
+</package>
+<package name="CAP_SMD_6.6X6.6" urn="urn:adsk.eagle:footprint:41212147/3" library_version="158">
+<wire x1="-3.3" y1="2.3" x2="-3.3" y2="-2.3" width="0.127" layer="51"/>
+<wire x1="-3.3" y1="-2.3" x2="-2.3" y2="-3.3" width="0.127" layer="51"/>
+<wire x1="-2.3" y1="-3.3" x2="3.3" y2="-3.3" width="0.127" layer="51"/>
+<wire x1="3.3" y1="-3.3" x2="3.3" y2="3.3" width="0.127" layer="51"/>
+<wire x1="3.3" y1="3.3" x2="-2.3" y2="3.3" width="0.127" layer="51"/>
+<wire x1="-2.3" y1="3.3" x2="-3.3" y2="2.3" width="0.127" layer="51"/>
+<wire x1="-3.3" y1="-2.3" x2="-2.3" y2="-3.3" width="0.127" layer="21"/>
+<wire x1="-2.3" y1="-3.3" x2="3.3" y2="-3.3" width="0.127" layer="21"/>
+<wire x1="3.3" y1="3.3" x2="-2.3" y2="3.3" width="0.127" layer="21"/>
+<wire x1="-2.3" y1="3.3" x2="-3.3" y2="2.3" width="0.127" layer="21"/>
+<wire x1="-3.3" y1="2.3" x2="-3.3" y2="1.12" width="0.127" layer="21"/>
+<wire x1="-3.3" y1="-1.12" x2="-3.3" y2="-2.3" width="0.127" layer="21"/>
+<wire x1="3.3" y1="1.12" x2="3.3" y2="3.3" width="0.127" layer="21"/>
+<wire x1="3.3" y1="-3.3" x2="3.3" y2="-1.12" width="0.127" layer="21"/>
+<wire x1="-4.35" y1="1.05" x2="-3.55" y2="1.05" width="0.05" layer="39"/>
+<wire x1="3.55" y1="1.05" x2="4.35" y2="1.05" width="0.05" layer="39"/>
+<wire x1="4.35" y1="1.05" x2="4.35" y2="-1.05" width="0.05" layer="39"/>
+<wire x1="4.35" y1="-1.05" x2="3.55" y2="-1.05" width="0.05" layer="39"/>
+<wire x1="-3.55" y1="-1.05" x2="-4.35" y2="-1.05" width="0.05" layer="39"/>
+<wire x1="-4.35" y1="-1.05" x2="-4.35" y2="1.05" width="0.05" layer="39"/>
+<wire x1="-3.55" y1="1.05" x2="-3.55" y2="2.425" width="0.05" layer="39"/>
+<wire x1="-3.55" y1="2.425" x2="-2.425" y2="3.55" width="0.05" layer="39"/>
+<wire x1="-2.425" y1="3.55" x2="3.55" y2="3.55" width="0.05" layer="39"/>
+<wire x1="3.55" y1="3.55" x2="3.55" y2="1.05" width="0.05" layer="39"/>
+<wire x1="3.55" y1="-1.05" x2="3.55" y2="-3.55" width="0.05" layer="39"/>
+<wire x1="3.55" y1="-3.55" x2="-2.425" y2="-3.55" width="0.05" layer="39"/>
+<wire x1="-2.425" y1="-3.55" x2="-3.55" y2="-2.425" width="0.05" layer="39"/>
+<wire x1="-3.55" y1="-2.425" x2="-3.55" y2="-1.05" width="0.05" layer="39"/>
+<circle x="-4.15" y="1.35" radius="0.1" width="0.2" layer="51"/>
+<circle x="-4.15" y="1.35" radius="0.1" width="0.2" layer="21"/>
+<text x="0" y="0" size="1.3" layer="25" font="vector" rot="R90" align="center">&gt;NAME</text>
+<smd name="+" x="-2.5" y="0" dx="3.2" dy="1.6" layer="1"/>
+<smd name="-" x="2.5" y="0" dx="3.2" dy="1.6" layer="1"/>
+<rectangle x1="2.4" y1="1" x2="3.3" y2="3.3" layer="21"/>
+<rectangle x1="2.4" y1="-3.3" x2="3.3" y2="-1" layer="21"/>
+<rectangle x1="-3.9" y1="-0.6" x2="-1.1" y2="0.6" layer="51"/>
+<rectangle x1="1.1" y1="-0.6" x2="3.9" y2="0.6" layer="51"/>
+</package>
+<package name="SMD-0810" urn="urn:adsk.eagle:footprint:43487337/1" library_version="158">
+<description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt;&lt;p&gt;
+SMD (Chip) Long Life Vertical 153 CLV&lt;p&gt;
+http://www.bccomponents.com/</description>
+<wire x1="3.3" y1="-4.2" x2="-4.2" y2="-4.2" width="0.2032" layer="21"/>
+<wire x1="-4.2" y1="-4.2" x2="-4.2" y2="-1.5" width="0.2032" layer="21"/>
+<wire x1="-4.2" y1="-1.5" x2="-4.2" y2="1.5" width="0.2032" layer="51"/>
+<wire x1="-4.2" y1="1.5" x2="-4.2" y2="4.2" width="0.2032" layer="21"/>
+<wire x1="-4.2" y1="4.2" x2="3.3" y2="4.2" width="0.2032" layer="21"/>
+<wire x1="4.2" y1="3.3" x2="4.2" y2="1.5" width="0.2032" layer="21"/>
+<wire x1="4.2" y1="1.5" x2="4.2" y2="-1.5" width="0.2032" layer="51"/>
+<wire x1="4.2" y1="-1.5" x2="4.2" y2="-3.3" width="0.2032" layer="21"/>
+<wire x1="4.2" y1="-3.3" x2="3.3" y2="-4.2" width="0.2032" layer="21"/>
+<wire x1="3.3" y1="4.2" x2="4.2" y2="3.3" width="0.2032" layer="21"/>
+<wire x1="-3.65" y1="-1.4" x2="3.65" y2="-1.4" width="0.2032" layer="21" curve="138.030204"/>
+<wire x1="-3.65" y1="-1.4" x2="-3.65" y2="1.4" width="0.2032" layer="51" curve="-41.969796"/>
+<wire x1="-3.65" y1="1.4" x2="3.65" y2="1.4" width="0.2032" layer="21" curve="-138.030204"/>
+<wire x1="3.65" y1="-1.4" x2="3.65" y2="1.4" width="0.2032" layer="51" curve="41.969796"/>
+<smd name="+" x="3.25" y="0" dx="3.5" dy="2.5" layer="1"/>
+<smd name="-" x="-3.25" y="0" dx="3.5" dy="2.5" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+</package>
+<package name="CTANT_7X4" urn="urn:adsk.eagle:footprint:52272420/1" library_version="158">
+<description>&lt;b&gt;TANTALUM CAPACITOR&lt;/b&gt;</description>
+<wire x1="-4.973" y1="2.483" x2="4.973" y2="2.483" width="0.0508" layer="39"/>
+<wire x1="4.973" y1="-2.483" x2="-4.973" y2="-2.483" width="0.0508" layer="39"/>
+<wire x1="-4.973" y1="-2.483" x2="-4.973" y2="2.483" width="0.0508" layer="39"/>
+<wire x1="4.973" y1="2.483" x2="4.973" y2="-2.483" width="0.0508" layer="39"/>
+<wire x1="-3.5814" y1="-2.1844" x2="-3.5814" y2="2.1844" width="0.1524" layer="51"/>
+<wire x1="-3.683" y1="1.143" x2="-3.683" y2="-1.143" width="0.254" layer="51"/>
+<wire x1="3.5814" y1="2.1844" x2="-3.5814" y2="2.1844" width="0.1524" layer="51"/>
+<wire x1="3.5814" y1="-2.1844" x2="-3.5814" y2="-2.1844" width="0.1524" layer="51"/>
+<wire x1="3.683" y1="1.143" x2="3.683" y2="-1.143" width="0.254" layer="51"/>
+<wire x1="3.5814" y1="-2.1844" x2="3.5814" y2="2.1844" width="0.1524" layer="51"/>
+<wire x1="-4.3434" y1="1.9812" x2="-3.937" y2="1.9812" width="0.1524" layer="21"/>
+<wire x1="-4.1402" y1="2.1844" x2="-4.1402" y2="1.778" width="0.1524" layer="21"/>
+<wire x1="-3.5814" y1="1.6764" x2="-3.5814" y2="2.1844" width="0.1524" layer="21"/>
+<wire x1="-3.5814" y1="2.1844" x2="3.5814" y2="2.1844" width="0.1524" layer="21"/>
+<wire x1="3.5814" y1="2.1844" x2="3.5814" y2="1.6764" width="0.1524" layer="21"/>
+<wire x1="-3.5814" y1="-1.6764" x2="-3.5814" y2="-2.1844" width="0.1524" layer="21"/>
+<wire x1="-3.5814" y1="-2.1844" x2="3.5814" y2="-2.1844" width="0.1524" layer="21"/>
+<wire x1="3.5814" y1="-2.1844" x2="3.5814" y2="-1.6764" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="2.1082" x2="-1.524" y2="-2.0828" width="0.254" layer="21"/>
+<rectangle x1="-0.5001" y1="-1" x2="0.5001" y2="1" layer="35"/>
+<rectangle x1="-3.5814" y1="-2.1844" x2="-1.5748" y2="2.1844" layer="51"/>
+<smd name="+" x="-3.2004" y="0" dx="2.5908" dy="2.8956" layer="1" roundness="10"/>
+<smd name="-" x="3.2004" y="0" dx="2.5908" dy="2.8956" layer="1" roundness="10"/>
+<text x="0" y="0" size="1" layer="25" font="vector" rot="R90" align="center">&gt;NAME</text>
+</package>
+<package name="CTANT_B" urn="urn:adsk.eagle:footprint:52272618/1" library_version="158">
+<description>Tantillium capacitor Type B (EIA 3528) 2.8 x 3.5 x 1.9 mm</description>
+<wire x1="-2.2434" y1="1.6812" x2="-1.837" y2="1.6812" width="0.1524" layer="21"/>
+<wire x1="-2.0402" y1="1.8844" x2="-2.0402" y2="1.478" width="0.1524" layer="21"/>
+<wire x1="-1.75" y1="1.4" x2="-0.55" y2="1.4" width="0.1024" layer="21"/>
+<wire x1="-0.55" y1="1.4" x2="1.75" y2="1.4" width="0.1024" layer="21"/>
+<wire x1="1.75" y1="-1.4" x2="-0.55" y2="-1.4" width="0.1024" layer="21"/>
+<wire x1="-0.55" y1="-1.4" x2="-1.75" y2="-1.4" width="0.1024" layer="21"/>
+<wire x1="-1.8" y1="1" x2="-1.8" y2="-1" width="0.2032" layer="51"/>
+<wire x1="1.8" y1="-1" x2="1.8" y2="1" width="0.2032" layer="51"/>
+<wire x1="-1.75" y1="1.4" x2="-1.75" y2="1.3" width="0.1024" layer="21"/>
+<wire x1="-1.75" y1="-1.3" x2="-1.75" y2="-1.4" width="0.1024" layer="21"/>
+<wire x1="1.75" y1="-1.3" x2="1.75" y2="-1.4" width="0.1024" layer="21"/>
+<wire x1="1.75" y1="1.4" x2="1.75" y2="1.3" width="0.1024" layer="21"/>
+<wire x1="-1.75" y1="1.3" x2="-1.75" y2="-1.3" width="0.1024" layer="51"/>
+<wire x1="1.75" y1="1.3" x2="1.75" y2="-1.3" width="0.1024" layer="51"/>
+<wire x1="-1.75" y1="1.3" x2="-0.55" y2="1.3" width="0.1024" layer="21"/>
+<wire x1="-0.55" y1="1.4" x2="-0.55" y2="1.3" width="0.1024" layer="21"/>
+<wire x1="-0.55" y1="1.3" x2="-0.55" y2="-1.3" width="0.1024" layer="21"/>
+<wire x1="-0.55" y1="-1.3" x2="-0.55" y2="-1.4" width="0.1024" layer="21"/>
+<wire x1="-0.55" y1="-1.3" x2="-1.75" y2="-1.3" width="0.1024" layer="21"/>
+<rectangle x1="-0.35" y1="-0.8" x2="0.35" y2="0.8" layer="35"/>
+<rectangle x1="-1.75" y1="-1.4" x2="-0.55" y2="1.4" layer="51"/>
+<smd name="+" x="-1.7018" y="0" dx="1.8796" dy="2.286" layer="1" roundness="10"/>
+<smd name="-" x="1.7018" y="0" dx="1.8796" dy="2.286" layer="1" roundness="10"/>
+<text x="0" y="2.286" size="1.27" layer="25" font="vector" align="center">&gt;NAME</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="R0603" urn="urn:adsk.eagle:package:2539454/6" type="model" library_version="157">
@@ -834,6 +1374,201 @@ DIN A4, landscape with extra doc field</description>
 <packageinstance name="R_4X0603"/>
 </packageinstances>
 </package3d>
+<package3d name="LED3528" urn="urn:adsk.eagle:package:24609407/3" type="model" library_version="158">
+<packageinstances>
+<packageinstance name="LED3528"/>
+</packageinstances>
+</package3d>
+<package3d name="LED2020" urn="urn:adsk.eagle:package:24467158/3" type="model" library_version="158">
+<description>https://datasheet.lcsc.com/szlcsc/1810231210_Foshan-NationStar-Optoelectronics-FM-B2020RGBA-HG_C108793.pdf</description>
+<packageinstances>
+<packageinstance name="LED2020"/>
+</packageinstances>
+</package3d>
+<package3d name="LED3528-HOLE" urn="urn:adsk.eagle:package:24609408/7" type="model" library_version="158">
+<packageinstances>
+<packageinstance name="LED3528-HOLE"/>
+</packageinstances>
+</package3d>
+<package3d name="E6C0606RGBC3UDA" urn="urn:adsk.eagle:package:33885790/1" type="box" library_version="158">
+<description>&lt;a href = https://datasheet.lcsc.com/lcsc/1912111437_EKINGLUX-E6C0606RGBC3UDA_C375569.pdf&gt;Datasheet&lt;/a&gt;</description>
+<packageinstances>
+<packageinstance name="E6C0606RGBC3UDA"/>
+</packageinstances>
+</package3d>
+<package3d name="19-037A/RSGHBHW1-S03/2T" urn="urn:adsk.eagle:package:33895817/1" type="box" library_version="158">
+<description>&lt;a href = https://datasheet.lcsc.com/lcsc/1811141822_Everlight-Elec-19-037A-RSGHBHW1-S03-2T_C282128.pdf&gt;Datasheet&lt;/a&gt;</description>
+<packageinstances>
+<packageinstance name="19-037A/RSGHBHW1-S03/2T"/>
+</packageinstances>
+</package3d>
+<package3d name="MHPA0808RGBDT" urn="urn:adsk.eagle:package:45704099/1" type="box" library_version="158">
+<packageinstances>
+<packageinstance name="MHPA0808RGBDT"/>
+</packageinstances>
+</package3d>
+<package3d name="LTST-C19HE1WT" urn="urn:adsk.eagle:package:47085866/2" type="model" library_version="158">
+<packageinstances>
+<packageinstance name="LTST-C19HE1WT"/>
+</packageinstances>
+</package3d>
+<package3d name="CTANT_TYPE_C" urn="urn:adsk.eagle:package:52489374/1" type="box" library_version="158">
+<description>TYPE C tantillum capacitor 6,0x3,2mm package&lt;br&gt;
+TYPE C / EIA 6032 / &lt;br&gt;
+&lt;br&gt;
+&lt;i&gt;Igor Odaikin, Feb 2021&lt;/i&gt;</description>
+<packageinstances>
+<packageinstance name="CTANT_TYPE_C"/>
+</packageinstances>
+</package3d>
+<package3d name="153CLV-0810" urn="urn:adsk.eagle:package:4491937/3" type="model" library_version="158">
+<description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt;&lt;p&gt;
+SMD (Chip) Long Life Vertical 153 CLV&lt;p&gt;
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="153CLV-0810"/>
+</packageinstances>
+</package3d>
+<package3d name="C2917" urn="urn:adsk.eagle:package:2539466/2" type="box" library_version="158">
+<packageinstances>
+<packageinstance name="C2917"/>
+</packageinstances>
+</package3d>
+<package3d name="C3024" urn="urn:adsk.eagle:package:2539467/2" type="box" library_version="158">
+<packageinstances>
+<packageinstance name="C3024"/>
+</packageinstances>
+</package3d>
+<package3d name="C_TH_6.3MM" urn="urn:adsk.eagle:package:4855525/1" type="box" library_version="158">
+<packageinstances>
+<packageinstance name="C_TH_6.3MM"/>
+</packageinstances>
+</package3d>
+<package3d name="RADIAL_18MM" urn="urn:adsk.eagle:package:3188664/2" type="box" library_version="158">
+<packageinstances>
+<packageinstance name="RADIAL_18MM"/>
+</packageinstances>
+</package3d>
+<package3d name="RADIAL_SIDE_10X17" urn="urn:adsk.eagle:package:4855526/1" type="box" library_version="158">
+<packageinstances>
+<packageinstance name="RADIAL_SIDE_10X17"/>
+</packageinstances>
+</package3d>
+<package3d name="SMD-8X5.4" urn="urn:adsk.eagle:package:6513896/2" type="model" library_version="158">
+<description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt;&lt;p&gt;
+SMD (Chip) Long Life Vertical 153 CLV&lt;p&gt;
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="SMD-8X5.4"/>
+</packageinstances>
+</package3d>
+<package3d name="RADIAL_6.3X12.5" urn="urn:adsk.eagle:package:6513892/4" type="model" library_version="158">
+<packageinstances>
+<packageinstance name="RADIAL_6.3X12.5"/>
+</packageinstances>
+</package3d>
+<package3d name="RADIAL_6.3X12.5-RA" urn="urn:adsk.eagle:package:6513894/4" type="model" library_version="158">
+<packageinstances>
+<packageinstance name="RADIAL_6.3X12.5-RA"/>
+</packageinstances>
+</package3d>
+<package3d name="RADIAL_SIDE_12.5X22" urn="urn:adsk.eagle:package:7188961/7" type="model" library_version="158">
+<packageinstances>
+<packageinstance name="RADIAL_SIDE_12.5X22"/>
+</packageinstances>
+</package3d>
+<package3d name="RADIAL_12.5X22" urn="urn:adsk.eagle:package:7188960/2" type="model" library_version="158">
+<packageinstances>
+<packageinstance name="RADIAL_12.5X22"/>
+</packageinstances>
+</package3d>
+<package3d name="RADIAL_SIDE_8X21.5" urn="urn:adsk.eagle:package:7189333/4" type="model" library_version="158">
+<packageinstances>
+<packageinstance name="RADIAL_SIDE_8X21.5"/>
+</packageinstances>
+</package3d>
+<package3d name="RADIAL_8X21.5" urn="urn:adsk.eagle:package:7189331/5" type="model" library_version="158">
+<packageinstances>
+<packageinstance name="RADIAL_8X21.5"/>
+</packageinstances>
+</package3d>
+<package3d name="RADIAL_5X11" urn="urn:adsk.eagle:package:10810350/1" type="box" library_version="158">
+<packageinstances>
+<packageinstance name="RADIAL_5X11"/>
+</packageinstances>
+</package3d>
+<package3d name="RADIAL_SIDE_10X51.5" urn="urn:adsk.eagle:package:14510772/3" type="model" library_version="158">
+<packageinstances>
+<packageinstance name="RADIAL_SIDE_10X51.5"/>
+</packageinstances>
+</package3d>
+<package3d name="RADIAL_SIDE_18X41.5" urn="urn:adsk.eagle:package:14750870/1" type="box" library_version="158">
+<packageinstances>
+<packageinstance name="RADIAL_SIDE_18X41.5"/>
+</packageinstances>
+</package3d>
+<package3d name="RADIAL_13X41.5" urn="urn:adsk.eagle:package:19332624/2" type="model" library_version="158">
+<description>Radial Polarized Capacitor, 5.00 mm pitch, 13.00 mm body diameter, 41.50 mm body height
+&lt;p&gt;Radial Polarized Capacitor package with 5.00 mm pitch (lead spacing), 0.70 mm lead diameter, 13.00 mm body diameter and 41.50 mm body height&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="RADIAL_13X41.5"/>
+</packageinstances>
+</package3d>
+<package3d name="RADIAL_8X12" urn="urn:adsk.eagle:package:27899927/2" type="model" library_version="158">
+<packageinstances>
+<packageinstance name="RADIAL_8X12"/>
+</packageinstances>
+</package3d>
+<package3d name="CPOL_10.5X10.5" urn="urn:adsk.eagle:package:32903742/3" type="model" library_version="158">
+<packageinstances>
+<packageinstance name="CPOL_D=10XL=10.5"/>
+</packageinstances>
+</package3d>
+<package3d name="CAP_SMD_6.3X7.7" urn="urn:adsk.eagle:package:32940686/2" type="model" library_version="158">
+<packageinstances>
+<packageinstance name="CAP_SMD_6.3X7.7"/>
+</packageinstances>
+</package3d>
+<package3d name="RADIAL_10X12.5" urn="urn:adsk.eagle:package:34281396/2" type="model" library_version="158">
+<packageinstances>
+<packageinstance name="RADIAL_10X12.5"/>
+</packageinstances>
+</package3d>
+<package3d name="RADIAL_10X12.5-RA" urn="urn:adsk.eagle:package:37197090/1" type="box" library_version="158">
+<packageinstances>
+<packageinstance name="RADIAL_10X12.5-RA"/>
+</packageinstances>
+</package3d>
+<package3d name="RADIAL_10X12.5-LA" urn="urn:adsk.eagle:package:37279104/1" type="box" library_version="158">
+<packageinstances>
+<packageinstance name="RADIAL_10X12.5-LA"/>
+</packageinstances>
+</package3d>
+<package3d name="CAP_SMD_6.6X6.6" urn="urn:adsk.eagle:package:41212148/4" type="model" library_version="158">
+<packageinstances>
+<packageinstance name="CAP_SMD_6.6X6.6"/>
+</packageinstances>
+</package3d>
+<package3d name="SMD-0810" urn="urn:adsk.eagle:package:43487338/2" type="model" library_version="158">
+<description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt;&lt;p&gt;
+SMD (Chip) Long Life Vertical 153 CLV&lt;p&gt;
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="SMD-0810"/>
+</packageinstances>
+</package3d>
+<package3d name="CTANT_7X4" urn="urn:adsk.eagle:package:52272421/2" type="model" library_version="158">
+<description>TANTALUM CAPACITOR</description>
+<packageinstances>
+<packageinstance name="CTANT_7X4"/>
+</packageinstances>
+</package3d>
+<package3d name="CTANT_B" urn="urn:adsk.eagle:package:52272619/2" type="model" library_version="158">
+<description>Tantillium capacitor Type B (EIA 3528) 2.8 x 3.5 x 1.9 mm</description>
+<packageinstances>
+<packageinstance name="CTANT_B"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="R" urn="urn:adsk.eagle:symbol:2539432/5" library_version="157">
@@ -879,6 +1614,69 @@ DIN A4, landscape with extra doc field</description>
 <text x="-2.54" y="-2.54" size="1.27" layer="95" font="vector" ratio="15" align="center">&gt;NAME</text>
 <text x="-2.794" y="0.508" size="0.635" layer="96" font="vector" align="center-right">&gt;COLOR</text>
 <text x="-2.794" y="-0.508" size="0.635" layer="96" font="vector" align="center-right">&gt;PACKAGE</text>
+</symbol>
+<symbol name="RGB_LED-1" urn="urn:adsk.eagle:symbol:52489372/1" library_version="158">
+<wire x1="5.08" y1="8.89" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="6.35" width="0.254" layer="94"/>
+<wire x1="5.08" y1="6.35" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="5.08" y2="8.89" width="0.254" layer="94"/>
+<wire x1="7.62" y1="8.89" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="6.35" width="0.254" layer="94"/>
+<wire x1="5.08" y1="13.97" x2="5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="12.7" x2="5.08" y2="11.43" width="0.254" layer="94"/>
+<wire x1="5.08" y1="11.43" x2="7.62" y2="12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="12.7" x2="5.08" y2="13.97" width="0.254" layer="94"/>
+<wire x1="7.62" y1="13.97" x2="7.62" y2="12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="12.7" x2="7.62" y2="11.43" width="0.254" layer="94"/>
+<wire x1="5.08" y1="3.81" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="5.08" y2="3.81" width="0.254" layer="94"/>
+<wire x1="7.62" y1="3.81" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="15.24" x2="0" y2="7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="7.62" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="10.16" y1="15.24" x2="10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="10.16" y1="15.24" x2="0" y2="15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="12.7" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="12.7" x2="5.08" y2="12.7" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="2.54" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="0" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="17.78" x2="9.144" y2="19.304" width="0.254" layer="94"/>
+<wire x1="9.144" y1="19.304" x2="8.128" y2="18.796" width="0.254" layer="94"/>
+<wire x1="8.636" y1="18.288" x2="9.144" y2="19.304" width="0.254" layer="94"/>
+<wire x1="6.096" y1="17.78" x2="7.62" y2="19.304" width="0.254" layer="94"/>
+<wire x1="7.62" y1="19.304" x2="6.604" y2="18.796" width="0.254" layer="94"/>
+<wire x1="7.112" y1="18.288" x2="7.62" y2="19.304" width="0.254" layer="94"/>
+<pin name="A" x="-2.54" y="7.62" visible="off" length="short"/>
+<pin name="B" x="12.7" y="2.54" visible="off" length="middle" rot="R180"/>
+<pin name="G" x="12.7" y="7.62" visible="off" length="middle" rot="R180"/>
+<pin name="R" x="12.7" y="12.7" visible="off" length="middle" rot="R180"/>
+<text x="5.08" y="16.51" size="1.27" layer="95" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="10.922" y="12.954" size="1.27" layer="97">R</text>
+<text x="10.922" y="7.874" size="1.27" layer="97">G</text>
+<text x="10.922" y="2.794" size="1.27" layer="97">B</text>
+<text x="5.08" y="-1.27" size="0.889" layer="97" font="vector" ratio="15" align="center">&gt;MANF#</text>
+</symbol>
+<symbol name="CPOL-1" urn="urn:adsk.eagle:symbol:52489371/1" library_version="158">
+<rectangle x1="-2.4765" y1="-0.4445" x2="0.8255" y2="0.4445" layer="94" rot="R270"/>
+<wire x1="0.381" y1="1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="-1.524" x2="1.27" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.524" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-0.762" y2="0" width="0.1524" layer="94"/>
+<pin name="+" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
+<pin name="-" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
+<text x="1.778" y="-1.016" size="1.27" layer="95" font="vector" align="center-left">&gt;NAME</text>
+<text x="1.778" y="2.032" size="1.27" layer="94" font="vector" ratio="15" align="center">+</text>
+<text x="-1.524" y="-0.762" size="0.762" layer="96" font="vector" rot="R180" align="center-left">&gt;VALUE</text>
+<text x="-1.524" y="0.762" size="0.762" layer="97" font="vector" align="center-right">&gt;PACKAGE</text>
+<text x="1.778" y="0.762" size="0.762" layer="96" font="vector" align="center-left">&gt;VOLTAGE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1548,6 +2346,595 @@ DIN A4, landscape with extra doc field</description>
 <attribute name="ALLOCATED" value="" constant="no"/>
 <attribute name="PACKAGE" value="RN0603" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LED_RGB" urn="urn:adsk.eagle:component:52489376/1" prefix="LED" library_version="158">
+<gates>
+<gate name="G$1" symbol="RGB_LED-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-2020" package="LED2020">
+<connects>
+<connect gate="G$1" pin="A" pad="+"/>
+<connect gate="G$1" pin="B" pad="B"/>
+<connect gate="G$1" pin="G" pad="G"/>
+<connect gate="G$1" pin="R" pad="R"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24467158/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="LCSC#" value="C108793" constant="no"/>
+<attribute name="MANF" value="Foshan NationStar Optoelectronics" constant="no"/>
+<attribute name="MANF#" value="FM-B2020RGBA-HG " constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-3528" package="LED3528">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="B" pad="3"/>
+<connect gate="G$1" pin="G" pad="4"/>
+<connect gate="G$1" pin="R" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24609407/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANF" value="Foryard" constant="no"/>
+<attribute name="MANF#" value="FYLS-3528RGBC-CA" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-3528-HOLE" package="LED3528-HOLE">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="B" pad="3"/>
+<connect gate="G$1" pin="G" pad="4"/>
+<connect gate="G$1" pin="R" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24609408/7"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANF" value="Foryard" constant="no"/>
+<attribute name="MANF#" value="FYLS-3528RGBC-CA" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-E6C0606RGBC3UDA" package="E6C0606RGBC3UDA">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="G" pad="3"/>
+<connect gate="G$1" pin="R" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33885790/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="LCSC#" value="C375569" constant="no"/>
+<attribute name="MANF" value="EKINGLUX" constant="no"/>
+<attribute name="MANF#" value="E6C0606RGBC3UDA" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-19-037A/RSGHBHW1-S03/2T" package="19-037A/RSGHBHW1-S03/2T">
+<connects>
+<connect gate="G$1" pin="A" pad="4"/>
+<connect gate="G$1" pin="B" pad="3"/>
+<connect gate="G$1" pin="G" pad="2"/>
+<connect gate="G$1" pin="R" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33895817/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="LCSC#" value="C282128" constant="no"/>
+<attribute name="MANF" value="Everlight Elec" constant="no"/>
+<attribute name="MANF#" value="19-037A/RSGHBHW1-S03/2T" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-0808" package="MHPA0808RGBDT">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="B" pad="4"/>
+<connect gate="G$1" pin="G" pad="3"/>
+<connect gate="G$1" pin="R" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:45704099/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="LCSC#" value="C404279" constant="no"/>
+<attribute name="MANF" value="MEIHUA" constant="no"/>
+<attribute name="MANF#" value="MHPA0808RGBDT" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-LTST-C19HE1WT" package="LTST-C19HE1WT">
+<connects>
+<connect gate="G$1" pin="A" pad="+"/>
+<connect gate="G$1" pin="B" pad="B"/>
+<connect gate="G$1" pin="G" pad="G"/>
+<connect gate="G$1" pin="R" pad="R"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:47085866/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANF" value="Lite-on" constant="no"/>
+<attribute name="MANF#" value="LTST-C19HE1WT" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-KAA-3528RGBS" package="LED3528">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="B" pad="4"/>
+<connect gate="G$1" pin="G" pad="3"/>
+<connect gate="G$1" pin="R" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24609407/3"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPOL" urn="urn:adsk.eagle:component:52489375/1" prefix="C" uservalue="yes" library_version="158">
+<description>Polar electrolytic or tantalum capacitor</description>
+<gates>
+<gate name="G$1" symbol="CPOL-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-SMD-8X10" package="153CLV-0810">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4491937/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="LCSC#" value="" constant="no"/>
+<attribute name="MANF" value="" constant="no"/>
+<attribute name="MANF#" value="" constant="no"/>
+<attribute name="PACKAGE" value="8010" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-2917" package="C2917">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2539466/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PACKAGE" value="2917" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-3024" package="C3024">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2539467/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PACKAGE" value="3024" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-RADIAL-6.3MM" package="C_TH_6.3MM">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4855525/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-RADIAL_18MM" package="RADIAL_18MM">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3188664/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="565-3495-ND" constant="no"/>
+<attribute name="MANF" value="United Chemi-Con" constant="no"/>
+<attribute name="MANF#" value="EKXJ161ELL681MM50S" constant="no"/>
+<attribute name="PACKAGE" value="18mm" constant="no"/>
+<attribute name="VALUE" value="680uF 160V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-RADIAL_SIDE-10X17" package="RADIAL_SIDE_10X17">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4855526/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-SMD_8X5.4" package="SMD-8X5.4">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6513896/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PACKAGE" value="SMD-8x5.4" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-RADIAL_6.3X12.5" package="RADIAL_6.3X12.5">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6513892/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PACKAGE" value="RADIAL_6.3x12.5" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-RADIAL_6.3X12.5-RA" package="RADIAL_6.3X12.5-RA">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6513894/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIA" value="6.3mm" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="HEIGHT" value="12.5mm" constant="no"/>
+<attribute name="MANF" value="" constant="no"/>
+<attribute name="MANF#" value="" constant="no"/>
+<attribute name="PACKAGE" value="RADIAL" constant="no"/>
+<attribute name="TOLERANCE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+<technology name="-68UF_50V">
+<attribute name="DIA" value="6.3mm" constant="no"/>
+<attribute name="DIGIKEY#" value="732-8860-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="12.5mm" constant="no"/>
+<attribute name="MANF" value="Wurth Electronics Inc" constant="no"/>
+<attribute name="MANF#" value="860020673014" constant="no"/>
+<attribute name="PACKAGE" value="RADIAL" constant="no"/>
+<attribute name="TOLERANCE" value="±20%" constant="no"/>
+<attribute name="VALUE" value="68µF" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-RADIAL_SIDE-12.5-22" package="RADIAL_SIDE_12.5X22">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7188961/7"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="495-6043-ND" constant="no"/>
+<attribute name="MANF" value="EPCOS (TDK)" constant="no"/>
+<attribute name="MANF#" value="B41896C6337M000" constant="no"/>
+<attribute name="PACKAGE" value="RADIAL" constant="no"/>
+<attribute name="VALUE" value="330µF " constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-RADIAL_12.5X22" package="RADIAL_12.5X22">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7188960/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-RADIAL_SIDE-8X21.5" package="RADIAL_SIDE_8X21.5">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7189333/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="565-4066-ND" constant="no"/>
+<attribute name="MANF" value="United Chemi-Con" constant="no"/>
+<attribute name="MANF#" value="EKZN500ELL181MH20D" constant="no"/>
+<attribute name="PACKAGE" value="RADIAL" constant="no"/>
+<attribute name="VALUE" value="180µF" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-RADIAL_8X21.5" package="RADIAL_8X21.5">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7189331/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PACKAGE" value="RADIAL" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-RADIAL_5X11" package="RADIAL_5X11">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10810350/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PACKAGE" value="radial" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-RADIAL_SIDE-10X51.5" package="RADIAL_SIDE_10X51.5">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14510772/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PACKAGE" value="RADIAL" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-RADIAL_SIDE_18X41.5" package="RADIAL_SIDE_18X41.5">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14750870/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="565-4821-ND" constant="no"/>
+<attribute name="MANF" value="United Chemi-Con" constant="no"/>
+<attribute name="MANF#" value="EKXJ161ELL561MM40S" constant="no"/>
+<attribute name="PACKAGE" value="RADIAL" constant="no"/>
+<attribute name="VALUE" value="560µF" constant="no"/>
+<attribute name="VOLTAGE" value="160V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-RADIAL_13X41.5" package="RADIAL_13X41.5">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19332624/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PACKAGE" value="RADIAL" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-RADIAL_8X12" package="RADIAL_8X12">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27899927/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="LCSC#" value="" constant="no"/>
+<attribute name="MANF" value="" constant="no"/>
+<attribute name="MANF#" value="" constant="no"/>
+<attribute name="PACKAGE" value="RADIAL 8x12" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD_10X10.2" package="CPOL_D=10XL=10.5">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32903742/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="LCSC#" value="" constant="no"/>
+<attribute name="MANF" value="" constant="no"/>
+<attribute name="MANF#" value="" constant="no"/>
+<attribute name="PACKAGE" value="SMD SIZE G" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD_6.3X7.7" package="CAP_SMD_6.3X7.7">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32940686/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="LCSC#" value="" constant="no"/>
+<attribute name="MANF" value="" constant="no"/>
+<attribute name="MANF#" value="" constant="no"/>
+<attribute name="PACKAGE" value="0607" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-RADIAL_10X12.5" package="RADIAL_10X12.5">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:34281396/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PACKAGE" value="RADIAL" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-RADIAL_10X12.5-RA" package="RADIAL_10X12.5-RA">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37197090/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-RADIAL_10X12.5-LA" package="RADIAL_10X12.5-LA">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37279104/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-SMD_6.6X6.6" package="CAP_SMD_6.6X6.6">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:41212148/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANF" value="" constant="no"/>
+<attribute name="MANF#" value="" constant="no"/>
+<attribute name="PACKAGE" value="0606" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-0810" package="SMD-0810">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43487338/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-SMD-TYPE-D" package="CTANT_7X4">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:52272421/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-TANT-TYPE-B" package="CTANT_B">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:52272619/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-TANT-TYPE-C" package="CTANT_TYPE_C">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:52489374/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PACKAGE" value="TYPE C" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3897,1391 +5284,6 @@ Edit by Igor Odaikin for mb_m50_v2 pcb, 2019</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="rc">
-<packages>
-<package name="CTANT_TYPE_C">
-<description>TYPE C tantillum capacitor 6,0x3,2mm package&lt;br&gt;
-TYPE C / EIA 6032 / &lt;br&gt;
-&lt;br&gt;
-&lt;i&gt;Igor Odaikin, Feb 2021&lt;/i&gt;</description>
-<wire x1="-3.556" y1="1.651" x2="3.556" y2="1.651" width="0.0508" layer="39"/>
-<wire x1="3.556" y1="-1.651" x2="-3.556" y2="-1.651" width="0.0508" layer="39"/>
-<wire x1="-3.556" y1="-1.651" x2="-3.556" y2="1.651" width="0.0508" layer="39"/>
-<wire x1="3.556" y1="1.651" x2="3.556" y2="-1.651" width="0.0508" layer="39"/>
-<wire x1="-2.794" y1="-1.6002" x2="-2.794" y2="1.6002" width="0.1524" layer="51"/>
-<wire x1="-2.8956" y1="1.0922" x2="-2.8956" y2="-1.0922" width="0.254" layer="51"/>
-<wire x1="2.794" y1="1.6002" x2="-2.794" y2="1.6002" width="0.1524" layer="51"/>
-<wire x1="2.794" y1="-1.6002" x2="-2.794" y2="-1.6002" width="0.1524" layer="51"/>
-<wire x1="2.8956" y1="1.0922" x2="2.8956" y2="-1.0922" width="0.254" layer="51"/>
-<wire x1="2.794" y1="-1.6002" x2="2.794" y2="1.6002" width="0.1524" layer="51"/>
-<wire x1="-3.8608" y1="1.5494" x2="-3.4544" y2="1.5494" width="0.1524" layer="21"/>
-<wire x1="-3.6576" y1="1.7526" x2="-3.6576" y2="1.3462" width="0.1524" layer="21"/>
-<wire x1="-2.8" y1="1.6" x2="-1.0922" y2="1.6002" width="0.1524" layer="21"/>
-<wire x1="-1.0922" y1="1.6002" x2="2.794" y2="1.6002" width="0.1524" layer="21"/>
-<wire x1="-2.8" y1="-1.6" x2="-1.0922" y2="-1.6002" width="0.1524" layer="21"/>
-<wire x1="-1.0922" y1="-1.6002" x2="2.794" y2="-1.6002" width="0.1524" layer="21"/>
-<wire x1="1.45" y1="1" x2="1.45" y2="-1.1" width="0.127" layer="48"/>
-<rectangle x1="-0.4572" y1="-0.9144" x2="0.4572" y2="0.9144" layer="35"/>
-<rectangle x1="-2.794" y1="-1.6002" x2="-1.2192" y2="1.6002" layer="51"/>
-<rectangle x1="-1.2446" y1="-1.6256" x2="-0.6858" y2="1.6002" layer="21"/>
-<rectangle x1="-2.8702" y1="1.4478" x2="-1.1176" y2="1.6002" layer="21"/>
-<rectangle x1="-2.8702" y1="-1.6002" x2="-1.1684" y2="-1.4478" layer="21"/>
-<smd name="+" x="-2.413" y="0" dx="1.9812" dy="2.5908" layer="1" roundness="10"/>
-<smd name="-" x="2.413" y="0" dx="1.9812" dy="2.5908" layer="1" roundness="10"/>
-<text x="0" y="2.54" size="1.27" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
-</package>
-<package name="153CLV-0810" urn="urn:adsk.eagle:footprint:4855521/1">
-<description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt;&lt;p&gt;
-SMD (Chip) Long Life Vertical 153 CLV&lt;p&gt;
-http://www.bccomponents.com/</description>
-<wire x1="3.3" y1="-4.2" x2="-4.2" y2="-4.2" width="0.2032" layer="21"/>
-<wire x1="-4.2" y1="-4.2" x2="-4.2" y2="-1.5" width="0.2032" layer="21"/>
-<wire x1="-4.2" y1="-1.5" x2="-4.2" y2="1.5" width="0.2032" layer="51"/>
-<wire x1="-4.2" y1="1.5" x2="-4.2" y2="4.2" width="0.2032" layer="21"/>
-<wire x1="-4.2" y1="4.2" x2="3.3" y2="4.2" width="0.2032" layer="21"/>
-<wire x1="4.2" y1="3.3" x2="4.2" y2="1.5" width="0.2032" layer="21"/>
-<wire x1="4.2" y1="1.5" x2="4.2" y2="-1.5" width="0.2032" layer="51"/>
-<wire x1="4.2" y1="-1.5" x2="4.2" y2="-3.3" width="0.2032" layer="21"/>
-<wire x1="4.2" y1="-3.3" x2="3.3" y2="-4.2" width="0.2032" layer="21"/>
-<wire x1="3.3" y1="4.2" x2="4.2" y2="3.3" width="0.2032" layer="21"/>
-<wire x1="-3.65" y1="-1.4" x2="3.65" y2="-1.4" width="0.2032" layer="21" curve="138.030204"/>
-<wire x1="-3.65" y1="-1.4" x2="-3.65" y2="1.4" width="0.2032" layer="51" curve="-41.969796"/>
-<wire x1="-3.65" y1="1.4" x2="3.65" y2="1.4" width="0.2032" layer="21" curve="-138.030204"/>
-<wire x1="3.65" y1="-1.4" x2="3.65" y2="1.4" width="0.2032" layer="51" curve="41.969796"/>
-<smd name="+" x="3.25" y="0" dx="3.5" dy="2.5" layer="1"/>
-<smd name="-" x="-3.25" y="0" dx="3.5" dy="2.5" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-</package>
-<package name="C2917" urn="urn:adsk.eagle:footprint:4855520/1">
-<wire x1="-3.5" y1="2.1" x2="3.5" y2="2.1" width="0.1016" layer="51"/>
-<wire x1="3.5" y1="2.1" x2="3.5" y2="-2.1" width="0.1016" layer="51"/>
-<wire x1="3.5" y1="-2.1" x2="-3.5" y2="-2.1" width="0.1016" layer="51"/>
-<wire x1="-3.5" y1="-2.1" x2="-3.5" y2="2.1" width="0.1016" layer="51"/>
-<wire x1="-3.5" y1="2.1" x2="-3.5" y2="1.6" width="0.15" layer="21"/>
-<wire x1="-3.5" y1="2.1" x2="-1.6" y2="2.1" width="0.15" layer="21"/>
-<wire x1="-1.6" y1="2.1" x2="-1.5" y2="2.1" width="0.15" layer="21"/>
-<wire x1="-1.5" y1="2.1" x2="3.5" y2="2.1" width="0.15" layer="21"/>
-<wire x1="3.5" y1="2.1" x2="3.5" y2="1.6" width="0.15" layer="21"/>
-<wire x1="3.5" y1="-1.6" x2="3.5" y2="-2.1" width="0.15" layer="21"/>
-<wire x1="3.5" y1="-2.1" x2="-1.5" y2="-2.1" width="0.15" layer="21"/>
-<wire x1="-1.6" y1="-2.1" x2="-3.5" y2="-2.1" width="0.15" layer="21"/>
-<wire x1="-3.5" y1="-2.1" x2="-3.5" y2="-1.6" width="0.15" layer="21"/>
-<wire x1="-1.6" y1="2.1" x2="-1.6" y2="-2.1" width="0.15" layer="21"/>
-<wire x1="-1.6" y1="-2.1" x2="-1.5" y2="-2.1" width="0.15" layer="21"/>
-<wire x1="-1.5" y1="-2.1" x2="-1.5" y2="2.1" width="0.15" layer="21"/>
-<rectangle x1="-3.65" y1="-1.2" x2="-3.45" y2="1.2" layer="51"/>
-<rectangle x1="3.45" y1="-1.2" x2="3.65" y2="1.2" layer="51" rot="R180"/>
-<rectangle x1="-3.5" y1="-2.1" x2="-2.4" y2="2.1" layer="51"/>
-<smd name="+" x="-3.15" y="0" dx="2.4" dy="2.8" layer="1"/>
-<smd name="-" x="3.15" y="0" dx="2.4" dy="2.8" layer="1" rot="R180"/>
-<text x="0" y="0" size="1.016" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-</package>
-<package name="C3024" urn="urn:adsk.eagle:footprint:4855518/1">
-<wire x1="-4.6" y1="3.5" x2="-4.6" y2="-3.5" width="0.15" layer="21"/>
-<wire x1="-4.6" y1="-3.5" x2="4.6" y2="-3.5" width="0.15" layer="21"/>
-<wire x1="4.6" y1="-3.5" x2="4.6" y2="3.5" width="0.15" layer="21"/>
-<wire x1="4.6" y1="3.5" x2="-4.6" y2="3.5" width="0.15" layer="21"/>
-<smd name="+" x="-3.15" y="0" dx="6.6" dy="2.5" layer="1" rot="R90"/>
-<smd name="-" x="3.15" y="0" dx="6.6" dy="2.5" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.5" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<text x="-1.1" y="2.9" size="1" layer="21" font="vector" ratio="15" align="center">+</text>
-</package>
-<package name="C_TH_6.3MM" urn="urn:adsk.eagle:footprint:4855523/1">
-<circle x="0" y="0" radius="3.15" width="0.127" layer="21"/>
-<pad name="+" x="-1.25" y="0" drill="0.8"/>
-<pad name="-" x="1.25" y="0" drill="0.8"/>
-<text x="0" y="1.504" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<text x="-1.25" y="-1.25" size="1" layer="21" font="vector" ratio="15" align="center">+</text>
-</package>
-<package name="RADIAL_18MM" urn="urn:adsk.eagle:footprint:4855522/1">
-<circle x="0" y="0" radius="9" width="0.127" layer="21"/>
-<pad name="+" x="-3.75" y="0" drill="1"/>
-<pad name="-" x="3.75" y="0" drill="1"/>
-<text x="0" y="0" size="2" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<text x="-3.8" y="2" size="1.27" layer="21" font="vector" ratio="15" align="center">+</text>
-</package>
-<package name="RADIAL_SIDE_10X17" urn="urn:adsk.eagle:footprint:4855524/1">
-<wire x1="5" y1="0" x2="5" y2="17" width="0.127" layer="21"/>
-<wire x1="5" y1="17" x2="-5" y2="17" width="0.127" layer="21"/>
-<wire x1="-5" y1="17" x2="-5" y2="0" width="0.127" layer="21"/>
-<wire x1="-5" y1="0" x2="-3.5" y2="0" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="0" x2="1.5" y2="0" width="0.127" layer="21"/>
-<wire x1="3.5" y1="0" x2="5" y2="0" width="0.127" layer="21"/>
-<pad name="+" x="-2.5" y="0" drill="0.8"/>
-<pad name="-" x="2.5" y="0" drill="0.8"/>
-<text x="-3.5" y="1.5" size="1.27" layer="21" font="vector" ratio="15" align="center">+</text>
-<text x="0" y="2.5" size="1.27" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-</package>
-<package name="SMD-8X5.4" urn="urn:adsk.eagle:footprint:6513886/1">
-<description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt;&lt;p&gt;
-SMD (Chip) Long Life Vertical 153 CLV&lt;p&gt;
-http://www.bccomponents.com/</description>
-<wire x1="3.3" y1="-4.2" x2="-4.2" y2="-4.2" width="0.2032" layer="21"/>
-<wire x1="-4.2" y1="-4.2" x2="-4.2" y2="-1.5" width="0.2032" layer="21"/>
-<wire x1="-4.2" y1="-1.5" x2="-4.2" y2="1.5" width="0.2032" layer="51"/>
-<wire x1="-4.2" y1="1.5" x2="-4.2" y2="4.2" width="0.2032" layer="21"/>
-<wire x1="-4.2" y1="4.2" x2="3.3" y2="4.2" width="0.2032" layer="21"/>
-<wire x1="4.2" y1="3.3" x2="4.2" y2="1.5" width="0.2032" layer="21"/>
-<wire x1="4.2" y1="1.5" x2="4.2" y2="-1.5" width="0.2032" layer="51"/>
-<wire x1="4.2" y1="-1.5" x2="4.2" y2="-3.3" width="0.2032" layer="21"/>
-<wire x1="4.2" y1="-3.3" x2="3.3" y2="-4.2" width="0.2032" layer="21"/>
-<wire x1="3.3" y1="4.2" x2="4.2" y2="3.3" width="0.2032" layer="21"/>
-<wire x1="-3.65" y1="-1.4" x2="3.65" y2="-1.4" width="0.2032" layer="21" curve="138.030204"/>
-<wire x1="-3.65" y1="-1.4" x2="-3.65" y2="1.4" width="0.2032" layer="51" curve="-41.969796"/>
-<wire x1="-3.65" y1="1.4" x2="3.65" y2="1.4" width="0.2032" layer="21" curve="-138.030204"/>
-<wire x1="3.65" y1="-1.4" x2="3.65" y2="1.4" width="0.2032" layer="51" curve="41.969796"/>
-<smd name="+" x="3.25" y="0" dx="3.5" dy="2.5" layer="1"/>
-<smd name="-" x="-3.25" y="0" dx="3.5" dy="2.5" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-</package>
-<package name="RADIAL_6.3X12.5" urn="urn:adsk.eagle:footprint:6513884/3">
-<circle x="0" y="0" radius="3.15" width="0.127" layer="21"/>
-<pad name="+" x="-1.25" y="0" drill="0.8"/>
-<pad name="-" x="1.25" y="0" drill="0.8"/>
-<text x="0" y="-1.5" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<text x="-1.2" y="1.4" size="1.27" layer="21" font="vector" ratio="15" align="center">+</text>
-</package>
-<package name="RADIAL_6.3X12.5-RA" urn="urn:adsk.eagle:footprint:6513885/3">
-<pad name="+" x="-1.25" y="0" drill="0.8"/>
-<pad name="-" x="1.25" y="0" drill="0.8"/>
-<text x="0" y="7" size="2" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<text x="-1.8" y="3" size="1.27" layer="21" font="vector" ratio="15" align="center">+</text>
-<wire x1="-3.15" y1="2" x2="-1.25" y2="2" width="0.127" layer="51"/>
-<wire x1="-1.25" y1="2" x2="1.25" y2="2" width="0.127" layer="51"/>
-<wire x1="1.25" y1="2" x2="3.15" y2="2" width="0.127" layer="51"/>
-<wire x1="3.15" y1="2" x2="3.15" y2="14.5" width="0.127" layer="51"/>
-<wire x1="3.15" y1="14.5" x2="-3.15" y2="14.5" width="0.127" layer="51"/>
-<wire x1="-3.15" y1="14.5" x2="-3.15" y2="2" width="0.127" layer="51"/>
-<wire x1="-1.25" y1="0" x2="-1.25" y2="2" width="0.2" layer="51"/>
-<wire x1="1.25" y1="0" x2="1.25" y2="2" width="0.2" layer="51"/>
-</package>
-<package name="RADIAL_SIDE_12.5X22" urn="urn:adsk.eagle:footprint:7188959/3">
-<pad name="+" x="-2.5" y="0" drill="0.8"/>
-<pad name="-" x="2.5" y="0" drill="0.8"/>
-<text x="-3.4" y="0.819" size="1.27" layer="51" font="vector" ratio="15" align="center">+</text>
-<text x="0" y="0" size="1.3" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<wire x1="-6.2" y1="1.5" x2="-2.5" y2="1.5" width="0.127" layer="51"/>
-<wire x1="-2.5" y1="1.5" x2="2.5" y2="1.5" width="0.127" layer="51"/>
-<wire x1="2.5" y1="1.5" x2="6.25" y2="1.5" width="0.127" layer="51"/>
-<wire x1="6.25" y1="1.5" x2="6.25" y2="23.5" width="0.127" layer="51"/>
-<wire x1="6.25" y1="23.5" x2="-6.25" y2="23.5" width="0.127" layer="51"/>
-<wire x1="-6.25" y1="23.5" x2="-6.25" y2="1.5" width="0.127" layer="51"/>
-<wire x1="-2.5" y1="0" x2="-2.5" y2="1.5" width="0.127" layer="51"/>
-<wire x1="2.5" y1="0" x2="2.5" y2="1.5" width="0.127" layer="51"/>
-</package>
-<package name="RADIAL_12.5X22" urn="urn:adsk.eagle:footprint:7188958/1">
-<circle x="0" y="0" radius="6.25" width="0.127" layer="21"/>
-<pad name="+" x="-2.5" y="0" drill="0.8"/>
-<pad name="-" x="2.5" y="0" drill="0.8"/>
-<text x="0" y="0" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<text x="-2.5" y="1.5" size="1.27" layer="21" font="vector" ratio="15" align="center">+</text>
-</package>
-<package name="RADIAL_SIDE_8X21.5" urn="urn:adsk.eagle:footprint:7189321/2">
-<pad name="+" x="-1.75" y="0" drill="0.8"/>
-<pad name="-" x="1.75" y="0" drill="0.8"/>
-<text x="0" y="0" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<text x="-2.75" y="1" size="1.27" layer="21" font="vector" ratio="15" align="center">+</text>
-<wire x1="-4" y1="2" x2="4" y2="2" width="0.1" layer="51"/>
-<wire x1="-4" y1="2" x2="-4" y2="23.5" width="0.1" layer="51"/>
-<wire x1="-4" y1="23.5" x2="4" y2="23.5" width="0.1" layer="51"/>
-<wire x1="4" y1="23.5" x2="4" y2="2" width="0.1" layer="51"/>
-<circle x="-1.75" y="0" radius="0.15" width="0.3" layer="51"/>
-<circle x="1.75" y="0" radius="0.15" width="0.3" layer="51"/>
-</package>
-<package name="RADIAL_8X21.5" urn="urn:adsk.eagle:footprint:7189319/2">
-<circle x="0" y="0" radius="4" width="0.127" layer="21"/>
-<pad name="+" x="-1.75" y="0" drill="0.8" shape="square"/>
-<pad name="-" x="1.75" y="0" drill="0.8"/>
-<text x="0" y="-1.5" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<text x="-1.75" y="2" size="1.27" layer="21" font="vector" ratio="15" align="center">+</text>
-</package>
-<package name="RADIAL_5X11" urn="urn:adsk.eagle:footprint:10810348/1">
-<pad name="+" x="-1" y="0" drill="0.7"/>
-<pad name="-" x="1" y="0" drill="0.7"/>
-<circle x="0" y="0" radius="2.5" width="0.1" layer="21"/>
-<text x="0" y="1" size="0.5" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<text x="-0.8" y="1.3" size="1.5" layer="21" font="vector" ratio="15" align="center">+</text>
-</package>
-<package name="RADIAL_SIDE_10X51.5" urn="urn:adsk.eagle:footprint:14510771/1">
-<pad name="+" x="-2.5" y="0" drill="0.8"/>
-<pad name="-" x="2.5" y="0" drill="0.8"/>
-<text x="-3.4" y="1.2" size="1.27" layer="21" font="vector" ratio="15" align="center">+</text>
-<text x="0" y="0" size="1.3" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<wire x1="-5" y1="1" x2="5" y2="1" width="0.127" layer="51"/>
-<wire x1="5" y1="1" x2="5" y2="52.5" width="0.127" layer="51"/>
-<wire x1="5" y1="52.5" x2="-5" y2="52.5" width="0.127" layer="51"/>
-<wire x1="-5" y1="52.5" x2="-5" y2="1" width="0.127" layer="51"/>
-</package>
-<package name="RADIAL_SIDE_18X41.5" urn="urn:adsk.eagle:footprint:14750868/1">
-<pad name="+" x="-2.5" y="0" drill="0.8"/>
-<pad name="-" x="2.5" y="0" drill="0.8"/>
-<text x="-3.4" y="1.2" size="1.27" layer="21" font="vector" ratio="15" align="center">+</text>
-<text x="0" y="0" size="1.3" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<wire x1="-9" y1="1" x2="9" y2="1" width="0.127" layer="51"/>
-<wire x1="9" y1="1" x2="9" y2="42.5" width="0.127" layer="51"/>
-<wire x1="9" y1="42.5" x2="-9" y2="42.5" width="0.127" layer="51"/>
-<wire x1="-9" y1="42.5" x2="-9" y2="1" width="0.127" layer="51"/>
-</package>
-<package name="RADIAL_13X41.5" urn="urn:adsk.eagle:footprint:19332623/1">
-<pad name="+" x="-2.5" y="0" drill="0.9"/>
-<pad name="-" x="2.5" y="0" drill="0.9"/>
-<circle x="0" y="0" radius="6.5" width="0.1" layer="21"/>
-<text x="0" y="0" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<text x="-2.5" y="1.5" size="1" layer="21" font="vector" ratio="15" align="center">+</text>
-</package>
-<package name="RADIAL_8X12" urn="urn:adsk.eagle:footprint:27899926/1">
-<circle x="0" y="0" radius="4" width="0.1" layer="21"/>
-<pad name="+" x="-1.75" y="0" drill="0.8" shape="square"/>
-<pad name="-" x="1.75" y="0" drill="0.8"/>
-<text x="0" y="0" size="1" layer="25" font="vector" ratio="12" align="center">&gt;NAME</text>
-<text x="-1.75" y="1.75" size="1" layer="21" font="vector" ratio="12" align="center">+</text>
-</package>
-<package name="CPOL_D=10XL=10.5" urn="urn:adsk.eagle:footprint:32903741/2">
-<wire x1="-5" y1="1.3117" x2="-5" y2="3.1538" width="0.12" layer="21"/>
-<wire x1="-5" y1="3.1538" x2="-3.1538" y2="5" width="0.12" layer="21"/>
-<wire x1="-3.1538" y1="5" x2="5" y2="5" width="0.12" layer="21"/>
-<wire x1="5" y1="5" x2="5" y2="1.3" width="0.12" layer="21"/>
-<wire x1="-5" y1="-1.3117" x2="-5" y2="-3.1538" width="0.12" layer="21"/>
-<wire x1="-5" y1="-3.1538" x2="-3.1538" y2="-5" width="0.12" layer="21"/>
-<wire x1="-3.1538" y1="-5" x2="5" y2="-5" width="0.12" layer="21"/>
-<wire x1="5" y1="-5" x2="5" y2="-1.3" width="0.12" layer="21"/>
-<smd name="+" x="-4.35" y="0" dx="4.4" dy="2.1" layer="1"/>
-<smd name="-" x="4.35" y="0" dx="4.4" dy="2.1" layer="1"/>
-<text x="0" y="0" size="1.5" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<rectangle x1="-6.4" y1="-0.9" x2="-2.3" y2="0.9" layer="51"/>
-<rectangle x1="2.3" y1="-0.9" x2="6.4" y2="0.9" layer="51"/>
-<rectangle x1="3.1" y1="1.3" x2="5" y2="5" layer="21"/>
-<rectangle x1="3.1" y1="-5" x2="5" y2="-1.3" layer="21"/>
-</package>
-<package name="CAP_SMD_6.3X7.7" urn="urn:adsk.eagle:footprint:32940657/1">
-<wire x1="-3.25" y1="3.25" x2="2.45" y2="3.25" width="0.1016" layer="51"/>
-<wire x1="2.45" y1="3.25" x2="3.25" y2="2.45" width="0.1016" layer="51"/>
-<wire x1="3.25" y1="2.45" x2="3.25" y2="-2.45" width="0.1016" layer="51"/>
-<wire x1="3.25" y1="-2.45" x2="2.45" y2="-3.25" width="0.1016" layer="51"/>
-<wire x1="2.45" y1="-3.25" x2="-3.25" y2="-3.25" width="0.1016" layer="51"/>
-<wire x1="-3.25" y1="-3.25" x2="-3.25" y2="3.25" width="0.1016" layer="51"/>
-<wire x1="-3" y1="0.775" x2="2.975" y2="0.85" width="0.1016" layer="21" curve="-149.753145"/>
-<wire x1="-3.25" y1="0.8" x2="-3.25" y2="3.25" width="0.1016" layer="21"/>
-<wire x1="-3.25" y1="3.25" x2="2.45" y2="3.25" width="0.1016" layer="21"/>
-<wire x1="2.45" y1="3.25" x2="3.25" y2="2.45" width="0.1016" layer="21"/>
-<wire x1="3.25" y1="-2.45" x2="2.45" y2="-3.25" width="0.1016" layer="21"/>
-<wire x1="2.45" y1="-3.25" x2="-3.25" y2="-3.25" width="0.1016" layer="21"/>
-<wire x1="-3.25" y1="-3.25" x2="-3.25" y2="-0.7" width="0.1016" layer="21"/>
-<wire x1="3" y1="-0.775" x2="-2.975" y2="-0.85" width="0.1016" layer="21" curve="-149.753145"/>
-<circle x="0" y="0" radius="3.1" width="0.1016" layer="51"/>
-<smd name="-" x="-2.35" y="0" dx="2.8" dy="1" layer="1"/>
-<smd name="+" x="2.35" y="0" dx="2.8" dy="1" layer="1"/>
-<text x="0" y="0" size="1.5" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<polygon width="0.1016" layer="51">
-<vertex x="-2.2" y="2.15" curve="88.581463"/>
-<vertex x="-2.2" y="-2.15"/>
-</polygon>
-</package>
-<package name="RADIAL_10X12.5" urn="urn:adsk.eagle:footprint:34281395/1">
-<circle x="0" y="0" radius="5" width="0.1" layer="21"/>
-<pad name="+" x="-2.5" y="0" drill="0.8" shape="square"/>
-<pad name="-" x="2.5" y="0" drill="0.8"/>
-<text x="0" y="0" size="1" layer="25" font="vector" ratio="12" align="center">&gt;NAME</text>
-<text x="-2.5" y="1.75" size="1" layer="21" font="vector" ratio="12" align="center">+</text>
-</package>
-<package name="RADIAL_10X12.5-RA" urn="urn:adsk.eagle:footprint:37197089/1">
-<pad name="+" x="-2.5" y="0" drill="0.8" shape="square"/>
-<pad name="-" x="2.5" y="0" drill="0.8"/>
-<text x="0" y="2.75" size="1" layer="25" font="vector" ratio="12" align="center">&gt;NAME</text>
-<text x="-2.5" y="1.75" size="1" layer="21" font="vector" ratio="12" align="center">+</text>
-<wire x1="-5" y1="13.5" x2="5" y2="13.5" width="0.1" layer="21"/>
-<wire x1="-5" y1="13.5" x2="-5" y2="1" width="0.1" layer="21"/>
-<wire x1="-5" y1="1" x2="5" y2="1" width="0.1" layer="21"/>
-<wire x1="5" y1="1" x2="5" y2="13.5" width="0.1" layer="21"/>
-<rectangle x1="-2.75" y1="0" x2="-2.25" y2="1" layer="51"/>
-<rectangle x1="2.25" y1="0" x2="2.75" y2="1" layer="51"/>
-</package>
-<package name="RADIAL_10X12.5-LA" urn="urn:adsk.eagle:footprint:37279103/1" library_version="114" library_locally_modified="yes">
-<pad name="+" x="2.5" y="0" drill="0.8" shape="square"/>
-<pad name="-" x="-2.5" y="0" drill="0.8"/>
-<text x="0" y="2.75" size="1" layer="25" font="vector" ratio="12" align="center">&gt;NAME</text>
-<text x="2.5" y="1.75" size="1" layer="21" font="vector" ratio="12" align="center">+</text>
-<wire x1="-5" y1="13.5" x2="5" y2="13.5" width="0.1" layer="21"/>
-<wire x1="-5" y1="13.5" x2="-5" y2="1" width="0.1" layer="21"/>
-<wire x1="-5" y1="1" x2="5" y2="1" width="0.1" layer="21"/>
-<wire x1="5" y1="1" x2="5" y2="13.5" width="0.1" layer="21"/>
-<rectangle x1="-2.75" y1="0" x2="-2.25" y2="1" layer="51"/>
-<rectangle x1="2.25" y1="0" x2="2.75" y2="1" layer="51"/>
-</package>
-<package name="CAP_SMD_6.6X6.6" urn="urn:adsk.eagle:footprint:41212147/3">
-<wire x1="-3.3" y1="2.3" x2="-3.3" y2="-2.3" width="0.127" layer="51"/>
-<wire x1="-3.3" y1="-2.3" x2="-2.3" y2="-3.3" width="0.127" layer="51"/>
-<wire x1="-2.3" y1="-3.3" x2="3.3" y2="-3.3" width="0.127" layer="51"/>
-<wire x1="3.3" y1="-3.3" x2="3.3" y2="3.3" width="0.127" layer="51"/>
-<wire x1="3.3" y1="3.3" x2="-2.3" y2="3.3" width="0.127" layer="51"/>
-<wire x1="-2.3" y1="3.3" x2="-3.3" y2="2.3" width="0.127" layer="51"/>
-<wire x1="-3.3" y1="-2.3" x2="-2.3" y2="-3.3" width="0.127" layer="21"/>
-<wire x1="-2.3" y1="-3.3" x2="3.3" y2="-3.3" width="0.127" layer="21"/>
-<wire x1="3.3" y1="3.3" x2="-2.3" y2="3.3" width="0.127" layer="21"/>
-<wire x1="-2.3" y1="3.3" x2="-3.3" y2="2.3" width="0.127" layer="21"/>
-<wire x1="-3.3" y1="2.3" x2="-3.3" y2="1.12" width="0.127" layer="21"/>
-<wire x1="-3.3" y1="-1.12" x2="-3.3" y2="-2.3" width="0.127" layer="21"/>
-<wire x1="3.3" y1="1.12" x2="3.3" y2="3.3" width="0.127" layer="21"/>
-<wire x1="3.3" y1="-3.3" x2="3.3" y2="-1.12" width="0.127" layer="21"/>
-<wire x1="-4.35" y1="1.05" x2="-3.55" y2="1.05" width="0.05" layer="39"/>
-<wire x1="3.55" y1="1.05" x2="4.35" y2="1.05" width="0.05" layer="39"/>
-<wire x1="4.35" y1="1.05" x2="4.35" y2="-1.05" width="0.05" layer="39"/>
-<wire x1="4.35" y1="-1.05" x2="3.55" y2="-1.05" width="0.05" layer="39"/>
-<wire x1="-3.55" y1="-1.05" x2="-4.35" y2="-1.05" width="0.05" layer="39"/>
-<wire x1="-4.35" y1="-1.05" x2="-4.35" y2="1.05" width="0.05" layer="39"/>
-<wire x1="-3.55" y1="1.05" x2="-3.55" y2="2.425" width="0.05" layer="39"/>
-<wire x1="-3.55" y1="2.425" x2="-2.425" y2="3.55" width="0.05" layer="39"/>
-<wire x1="-2.425" y1="3.55" x2="3.55" y2="3.55" width="0.05" layer="39"/>
-<wire x1="3.55" y1="3.55" x2="3.55" y2="1.05" width="0.05" layer="39"/>
-<wire x1="3.55" y1="-1.05" x2="3.55" y2="-3.55" width="0.05" layer="39"/>
-<wire x1="3.55" y1="-3.55" x2="-2.425" y2="-3.55" width="0.05" layer="39"/>
-<wire x1="-2.425" y1="-3.55" x2="-3.55" y2="-2.425" width="0.05" layer="39"/>
-<wire x1="-3.55" y1="-2.425" x2="-3.55" y2="-1.05" width="0.05" layer="39"/>
-<circle x="-4.15" y="1.35" radius="0.1" width="0.2" layer="51"/>
-<circle x="-4.15" y="1.35" radius="0.1" width="0.2" layer="21"/>
-<text x="0" y="0" size="1.3" layer="25" font="vector" rot="R90" align="center">&gt;NAME</text>
-<smd name="+" x="-2.5" y="0" dx="3.2" dy="1.6" layer="1"/>
-<smd name="-" x="2.5" y="0" dx="3.2" dy="1.6" layer="1"/>
-<rectangle x1="2.4" y1="1" x2="3.3" y2="3.3" layer="21"/>
-<rectangle x1="2.4" y1="-3.3" x2="3.3" y2="-1" layer="21"/>
-<rectangle x1="-3.9" y1="-0.6" x2="-1.1" y2="0.6" layer="51"/>
-<rectangle x1="1.1" y1="-0.6" x2="3.9" y2="0.6" layer="51"/>
-</package>
-<package name="SMD-0810" urn="urn:adsk.eagle:footprint:43487337/1">
-<description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt;&lt;p&gt;
-SMD (Chip) Long Life Vertical 153 CLV&lt;p&gt;
-http://www.bccomponents.com/</description>
-<wire x1="3.3" y1="-4.2" x2="-4.2" y2="-4.2" width="0.2032" layer="21"/>
-<wire x1="-4.2" y1="-4.2" x2="-4.2" y2="-1.5" width="0.2032" layer="21"/>
-<wire x1="-4.2" y1="-1.5" x2="-4.2" y2="1.5" width="0.2032" layer="51"/>
-<wire x1="-4.2" y1="1.5" x2="-4.2" y2="4.2" width="0.2032" layer="21"/>
-<wire x1="-4.2" y1="4.2" x2="3.3" y2="4.2" width="0.2032" layer="21"/>
-<wire x1="4.2" y1="3.3" x2="4.2" y2="1.5" width="0.2032" layer="21"/>
-<wire x1="4.2" y1="1.5" x2="4.2" y2="-1.5" width="0.2032" layer="51"/>
-<wire x1="4.2" y1="-1.5" x2="4.2" y2="-3.3" width="0.2032" layer="21"/>
-<wire x1="4.2" y1="-3.3" x2="3.3" y2="-4.2" width="0.2032" layer="21"/>
-<wire x1="3.3" y1="4.2" x2="4.2" y2="3.3" width="0.2032" layer="21"/>
-<wire x1="-3.65" y1="-1.4" x2="3.65" y2="-1.4" width="0.2032" layer="21" curve="138.030204"/>
-<wire x1="-3.65" y1="-1.4" x2="-3.65" y2="1.4" width="0.2032" layer="51" curve="-41.969796"/>
-<wire x1="-3.65" y1="1.4" x2="3.65" y2="1.4" width="0.2032" layer="21" curve="-138.030204"/>
-<wire x1="3.65" y1="-1.4" x2="3.65" y2="1.4" width="0.2032" layer="51" curve="41.969796"/>
-<smd name="+" x="3.25" y="0" dx="3.5" dy="2.5" layer="1"/>
-<smd name="-" x="-3.25" y="0" dx="3.5" dy="2.5" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-</package>
-<package name="CTANT_7X4" urn="urn:adsk.eagle:footprint:52272420/1">
-<description>&lt;b&gt;TANTALUM CAPACITOR&lt;/b&gt;</description>
-<wire x1="-4.973" y1="2.483" x2="4.973" y2="2.483" width="0.0508" layer="39"/>
-<wire x1="4.973" y1="-2.483" x2="-4.973" y2="-2.483" width="0.0508" layer="39"/>
-<wire x1="-4.973" y1="-2.483" x2="-4.973" y2="2.483" width="0.0508" layer="39"/>
-<wire x1="4.973" y1="2.483" x2="4.973" y2="-2.483" width="0.0508" layer="39"/>
-<wire x1="-3.5814" y1="-2.1844" x2="-3.5814" y2="2.1844" width="0.1524" layer="51"/>
-<wire x1="-3.683" y1="1.143" x2="-3.683" y2="-1.143" width="0.254" layer="51"/>
-<wire x1="3.5814" y1="2.1844" x2="-3.5814" y2="2.1844" width="0.1524" layer="51"/>
-<wire x1="3.5814" y1="-2.1844" x2="-3.5814" y2="-2.1844" width="0.1524" layer="51"/>
-<wire x1="3.683" y1="1.143" x2="3.683" y2="-1.143" width="0.254" layer="51"/>
-<wire x1="3.5814" y1="-2.1844" x2="3.5814" y2="2.1844" width="0.1524" layer="51"/>
-<wire x1="-4.3434" y1="1.9812" x2="-3.937" y2="1.9812" width="0.1524" layer="21"/>
-<wire x1="-4.1402" y1="2.1844" x2="-4.1402" y2="1.778" width="0.1524" layer="21"/>
-<wire x1="-3.5814" y1="1.6764" x2="-3.5814" y2="2.1844" width="0.1524" layer="21"/>
-<wire x1="-3.5814" y1="2.1844" x2="3.5814" y2="2.1844" width="0.1524" layer="21"/>
-<wire x1="3.5814" y1="2.1844" x2="3.5814" y2="1.6764" width="0.1524" layer="21"/>
-<wire x1="-3.5814" y1="-1.6764" x2="-3.5814" y2="-2.1844" width="0.1524" layer="21"/>
-<wire x1="-3.5814" y1="-2.1844" x2="3.5814" y2="-2.1844" width="0.1524" layer="21"/>
-<wire x1="3.5814" y1="-2.1844" x2="3.5814" y2="-1.6764" width="0.1524" layer="21"/>
-<wire x1="-1.524" y1="2.1082" x2="-1.524" y2="-2.0828" width="0.254" layer="21"/>
-<rectangle x1="-0.5001" y1="-1" x2="0.5001" y2="1" layer="35"/>
-<rectangle x1="-3.5814" y1="-2.1844" x2="-1.5748" y2="2.1844" layer="51"/>
-<smd name="+" x="-3.2004" y="0" dx="2.5908" dy="2.8956" layer="1" roundness="10"/>
-<smd name="-" x="3.2004" y="0" dx="2.5908" dy="2.8956" layer="1" roundness="10"/>
-<text x="0" y="0" size="1" layer="25" font="vector" rot="R90" align="center">&gt;NAME</text>
-</package>
-<package name="CTANT_B" urn="urn:adsk.eagle:footprint:52272618/1">
-<description>Tantillium capacitor Type B (EIA 3528) 2.8 x 3.5 x 1.9 mm</description>
-<wire x1="-2.2434" y1="1.6812" x2="-1.837" y2="1.6812" width="0.1524" layer="21"/>
-<wire x1="-2.0402" y1="1.8844" x2="-2.0402" y2="1.478" width="0.1524" layer="21"/>
-<wire x1="-1.75" y1="1.4" x2="-0.55" y2="1.4" width="0.1024" layer="21"/>
-<wire x1="-0.55" y1="1.4" x2="1.75" y2="1.4" width="0.1024" layer="21"/>
-<wire x1="1.75" y1="-1.4" x2="-0.55" y2="-1.4" width="0.1024" layer="21"/>
-<wire x1="-0.55" y1="-1.4" x2="-1.75" y2="-1.4" width="0.1024" layer="21"/>
-<wire x1="-1.8" y1="1" x2="-1.8" y2="-1" width="0.2032" layer="51"/>
-<wire x1="1.8" y1="-1" x2="1.8" y2="1" width="0.2032" layer="51"/>
-<wire x1="-1.75" y1="1.4" x2="-1.75" y2="1.3" width="0.1024" layer="21"/>
-<wire x1="-1.75" y1="-1.3" x2="-1.75" y2="-1.4" width="0.1024" layer="21"/>
-<wire x1="1.75" y1="-1.3" x2="1.75" y2="-1.4" width="0.1024" layer="21"/>
-<wire x1="1.75" y1="1.4" x2="1.75" y2="1.3" width="0.1024" layer="21"/>
-<wire x1="-1.75" y1="1.3" x2="-1.75" y2="-1.3" width="0.1024" layer="51"/>
-<wire x1="1.75" y1="1.3" x2="1.75" y2="-1.3" width="0.1024" layer="51"/>
-<wire x1="-1.75" y1="1.3" x2="-0.55" y2="1.3" width="0.1024" layer="21"/>
-<wire x1="-0.55" y1="1.4" x2="-0.55" y2="1.3" width="0.1024" layer="21"/>
-<wire x1="-0.55" y1="1.3" x2="-0.55" y2="-1.3" width="0.1024" layer="21"/>
-<wire x1="-0.55" y1="-1.3" x2="-0.55" y2="-1.4" width="0.1024" layer="21"/>
-<wire x1="-0.55" y1="-1.3" x2="-1.75" y2="-1.3" width="0.1024" layer="21"/>
-<rectangle x1="-0.35" y1="-0.8" x2="0.35" y2="0.8" layer="35"/>
-<rectangle x1="-1.75" y1="-1.4" x2="-0.55" y2="1.4" layer="51"/>
-<smd name="+" x="-1.7018" y="0" dx="1.8796" dy="2.286" layer="1" roundness="10"/>
-<smd name="-" x="1.7018" y="0" dx="1.8796" dy="2.286" layer="1" roundness="10"/>
-<text x="0" y="2.286" size="1.27" layer="25" font="vector" align="center">&gt;NAME</text>
-</package>
-<package name="LED3528" urn="urn:adsk.eagle:footprint:24609405/2">
-<smd name="4" x="1.5" y="0.7" dx="1" dy="1.5" layer="1" rot="R90"/>
-<smd name="3" x="-1.5" y="0.7" dx="1" dy="1.5" layer="1" rot="R90"/>
-<smd name="2" x="-1.5" y="-0.7" dx="1" dy="1.5" layer="1" rot="R90"/>
-<smd name="1" x="1.5" y="-0.7" dx="1" dy="1.5" layer="1" rot="R90"/>
-<wire x1="-1.6" y1="1.4" x2="1.6" y2="1.4" width="0.127" layer="51"/>
-<wire x1="1.6" y1="1.4" x2="1.6" y2="-0.6" width="0.127" layer="51"/>
-<wire x1="1.6" y1="-0.6" x2="1.6" y2="-1.4" width="0.127" layer="51"/>
-<wire x1="1.6" y1="-1.4" x2="0.8" y2="-1.4" width="0.127" layer="51"/>
-<wire x1="0.8" y1="-1.4" x2="-1.6" y2="-1.4" width="0.127" layer="51"/>
-<wire x1="-1.6" y1="-1.4" x2="-1.6" y2="1.4" width="0.127" layer="51"/>
-<wire x1="0.8" y1="-1.4" x2="1.6" y2="-0.6" width="0.127" layer="51"/>
-<wire x1="-1.6" y1="1.4" x2="1.6" y2="1.4" width="0.127" layer="21"/>
-<wire x1="1.6" y1="0.05" x2="1.6" y2="-0.05" width="0.127" layer="21"/>
-<wire x1="-1.6" y1="0.05" x2="-1.6" y2="-0.05" width="0.127" layer="21"/>
-<wire x1="-1.6" y1="-1.35" x2="-1.6" y2="-1.4" width="0.127" layer="21"/>
-<wire x1="-1.6" y1="-1.4" x2="1.6" y2="-1.4" width="0.127" layer="21"/>
-<wire x1="1.6" y1="-1.4" x2="1.6" y2="-1.35" width="0.127" layer="21"/>
-<wire x1="1.6" y1="1.4" x2="1.6" y2="1.35" width="0.127" layer="21"/>
-<wire x1="-1.6" y1="1.4" x2="-1.6" y2="1.35" width="0.127" layer="21"/>
-<text x="0" y="2.1" size="1" layer="25" font="vector" ratio="12" align="center">&gt;NAME</text>
-<circle x="0" y="0" radius="1" width="0.1" layer="51"/>
-</package>
-<package name="LED2020" urn="urn:adsk.eagle:footprint:24467157/2">
-<description>https://datasheet.lcsc.com/szlcsc/1810231210_Foshan-NationStar-Optoelectronics-FM-B2020RGBA-HG_C108793.pdf</description>
-<smd name="+" x="0.85" y="-0.55" dx="0.8" dy="0.7" layer="1" rot="R180"/>
-<smd name="B" x="0.85" y="0.55" dx="0.8" dy="0.7" layer="1" rot="R180"/>
-<smd name="R" x="-0.85" y="0.55" dx="0.8" dy="0.7" layer="1" rot="R180"/>
-<smd name="G" x="-0.85" y="-0.55" dx="0.8" dy="0.7" layer="1" rot="R180"/>
-<wire x1="-1.05" y1="-1.05" x2="1.05" y2="-1.05" width="0.1" layer="51"/>
-<wire x1="1.05" y1="-1.05" x2="1.05" y2="1.05" width="0.1" layer="51"/>
-<wire x1="1.05" y1="1.05" x2="-0.6" y2="1.05" width="0.1" layer="51"/>
-<wire x1="-0.6" y1="1.05" x2="-1.05" y2="1.05" width="0.1" layer="51"/>
-<wire x1="-1.05" y1="1.05" x2="-1.05" y2="0.6" width="0.1" layer="51"/>
-<wire x1="-1.05" y1="0.6" x2="-1.05" y2="-1.05" width="0.1" layer="51"/>
-<wire x1="-0.6" y1="1.05" x2="-1.05" y2="0.6" width="0.1" layer="51"/>
-<wire x1="1.05" y1="1.05" x2="-1.05" y2="1.05" width="0.1" layer="21"/>
-<wire x1="-1.05" y1="0.05" x2="-1.05" y2="-0.05" width="0.1" layer="21"/>
-<wire x1="1.05" y1="0.05" x2="1.05" y2="-0.05" width="0.1" layer="21"/>
-<wire x1="1.05" y1="-1.05" x2="-1.05" y2="-1.05" width="0.1" layer="21"/>
-<text x="0" y="0" size="1" layer="25" font="vector" ratio="15" rot="R180" align="center">&gt;NAME</text>
-</package>
-<package name="LED3528-HOLE" urn="urn:adsk.eagle:footprint:24609406/4">
-<smd name="4" x="-2.35" y="0.7" dx="1" dy="1" layer="1" rot="R90"/>
-<smd name="3" x="2.35" y="0.7" dx="1" dy="1" layer="1" rot="R90"/>
-<smd name="2" x="2.35" y="-0.7" dx="1" dy="1" layer="1" rot="R90"/>
-<smd name="1" x="-2.35" y="-0.7" dx="1" dy="1" layer="1" rot="R90"/>
-<wire x1="1.65" y1="-1.15" x2="1.65" y2="1.15" width="0.000253125" layer="20"/>
-<wire x1="1.65" y1="1.15" x2="1.15" y2="1.65" width="0.000253125" layer="20" curve="90"/>
-<wire x1="1.15" y1="1.65" x2="-1.15" y2="1.65" width="0.000253125" layer="20"/>
-<wire x1="-1.15" y1="1.65" x2="-1.65" y2="1.15" width="0.000253125" layer="20" curve="90"/>
-<wire x1="-1.65" y1="1.15" x2="-1.65" y2="-1.15" width="0.000253125" layer="20"/>
-<wire x1="-1.65" y1="-1.15" x2="-1.15" y2="-1.65" width="0.000253125" layer="20" curve="90"/>
-<wire x1="-1.15" y1="-1.65" x2="1.15" y2="-1.65" width="0.000253125" layer="20"/>
-<wire x1="1.15" y1="-1.65" x2="1.65" y2="-1.15" width="0.000253125" layer="20" curve="90"/>
-<wire x1="1.6" y1="1.4" x2="-1.6" y2="1.4" width="0.1" layer="52"/>
-<wire x1="-1.6" y1="1.4" x2="-1.6" y2="-1.4" width="0.1" layer="52"/>
-<wire x1="-1.6" y1="-1.4" x2="1.6" y2="-1.4" width="0.1" layer="52"/>
-<wire x1="1.6" y1="-1.4" x2="1.6" y2="1.4" width="0.1" layer="52"/>
-<text x="0" y="2.2" size="1" layer="22" font="vector" ratio="12" align="center">&gt;NAME</text>
-<circle x="0" y="0" radius="1" width="0.1" layer="52"/>
-</package>
-<package name="E6C0606RGBC3UDA" urn="urn:adsk.eagle:footprint:33885789/1">
-<description>&lt;a href = https://datasheet.lcsc.com/lcsc/1912111437_EKINGLUX-E6C0606RGBC3UDA_C375569.pdf&gt;Datasheet&lt;/a&gt;</description>
-<smd name="1" x="-0.7" y="0.5" dx="0.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="2" x="0.7" y="0.5" dx="0.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="4" x="0.7" y="-0.5" dx="0.7" dy="0.6" layer="1" rot="R90"/>
-<smd name="3" x="-0.7" y="-0.5" dx="0.7" dy="0.6" layer="1" rot="R90"/>
-<wire x1="-0.8" y1="0.8" x2="-0.8" y2="-0.8" width="0.1" layer="51"/>
-<wire x1="-0.8" y1="-0.8" x2="0.8" y2="-0.8" width="0.1" layer="51"/>
-<wire x1="0.8" y1="-0.8" x2="0.8" y2="0.8" width="0.1" layer="51"/>
-<wire x1="0.8" y1="0.8" x2="-0.8" y2="0.8" width="0.1" layer="51"/>
-<text x="0" y="0" size="0.5" layer="25" font="vector" ratio="12" align="center">&gt;NAME</text>
-</package>
-<package name="19-037A/RSGHBHW1-S03/2T" urn="urn:adsk.eagle:footprint:33895816/1">
-<description>&lt;a href = https://datasheet.lcsc.com/lcsc/1811141822_Everlight-Elec-19-037A-RSGHBHW1-S03-2T_C282128.pdf&gt;Datasheet&lt;/a&gt;</description>
-<smd name="3" x="-0.8" y="-0.45" dx="0.55" dy="0.8" layer="1" rot="R90"/>
-<smd name="4" x="0.8" y="-0.45" dx="0.55" dy="0.8" layer="1" rot="R90"/>
-<smd name="2" x="-0.8" y="0.45" dx="0.55" dy="0.8" layer="1" rot="R90"/>
-<smd name="1" x="0.8" y="0.45" dx="0.55" dy="0.8" layer="1" rot="R90"/>
-<wire x1="-0.8" y1="0.8" x2="-0.8" y2="-0.8" width="0.1" layer="51"/>
-<wire x1="-0.8" y1="-0.8" x2="0.8" y2="-0.8" width="0.1" layer="51"/>
-<wire x1="0.8" y1="-0.8" x2="0.8" y2="0.8" width="0.1" layer="51"/>
-<wire x1="0.8" y1="0.8" x2="-0.8" y2="0.8" width="0.1" layer="51"/>
-<wire x1="-0.25" y1="0.8" x2="0.25" y2="0.8" width="0.1" layer="21"/>
-<wire x1="-0.25" y1="-0.8" x2="0.25" y2="-0.8" width="0.1" layer="21"/>
-<rectangle x1="0.15" y1="0.15" x2="0.8" y2="0.8" layer="51"/>
-<text x="0" y="1.25" size="0.7" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-</package>
-<package name="MHPA0808RGBDT" urn="urn:adsk.eagle:footprint:45704097/1">
-<smd name="4" x="-0.275" y="0.275" dx="0.35" dy="0.35" layer="1" rot="R90" stop="no"/>
-<smd name="1" x="0.275" y="0.275" dx="0.35" dy="0.35" layer="1" rot="R90" stop="no"/>
-<smd name="3" x="-0.275" y="-0.275" dx="0.35" dy="0.35" layer="1" rot="R90" stop="no"/>
-<smd name="2" x="0.275" y="-0.275" dx="0.35" dy="0.35" layer="1" rot="R90" stop="no"/>
-<rectangle x1="-0.475" y1="0.075" x2="-0.075" y2="0.475" layer="29"/>
-<rectangle x1="0.075" y1="0.075" x2="0.475" y2="0.475" layer="29"/>
-<rectangle x1="-0.475" y1="-0.475" x2="-0.075" y2="-0.075" layer="29"/>
-<rectangle x1="0.075" y1="-0.475" x2="0.475" y2="-0.075" layer="29"/>
-<text x="0" y="0" size="0.3" layer="25" font="vector" align="center">&gt;NAME</text>
-<wire x1="-0.4" y1="0.4" x2="-0.4" y2="-0.4" width="0.05" layer="51"/>
-<wire x1="-0.4" y1="-0.4" x2="0.4" y2="-0.4" width="0.05" layer="51"/>
-<wire x1="0.4" y1="-0.4" x2="0.4" y2="0.4" width="0.05" layer="51"/>
-<wire x1="0.4" y1="0.4" x2="-0.4" y2="0.4" width="0.05" layer="51"/>
-</package>
-<package name="LTST-C19HE1WT" urn="urn:adsk.eagle:footprint:47085865/1">
-<circle x="-1.25" y="1.25" radius="0.1" width="0.1524" layer="21"/>
-<wire x1="-0.95" y1="1.35" x2="0.95" y2="1.35" width="0.1524" layer="21"/>
-<wire x1="0.95" y1="1.35" x2="0.95" y2="-1.35" width="0.1524" layer="21"/>
-<wire x1="0.95" y1="-1.35" x2="-0.95" y2="-1.35" width="0.1524" layer="21"/>
-<wire x1="-0.95" y1="-1.35" x2="-0.95" y2="1.35" width="0.1524" layer="21"/>
-<smd name="+" x="-0.425" y="-0.725" dx="0.65" dy="0.85" layer="1"/>
-<smd name="B" x="0.425" y="-0.725" dx="0.65" dy="0.85" layer="1"/>
-<smd name="G" x="0.425" y="0.725" dx="0.65" dy="0.85" layer="1"/>
-<smd name="R" x="-0.425" y="0.725" dx="0.65" dy="0.85" layer="1"/>
-<text x="0" y="1.75" size="0.6" layer="21" font="vector" ratio="15" rot="R180" align="center">&gt;NAME</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="153CLV-0810" urn="urn:adsk.eagle:package:4491937/3" type="model">
-<description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt;&lt;p&gt;
-SMD (Chip) Long Life Vertical 153 CLV&lt;p&gt;
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="153CLV-0810"/>
-</packageinstances>
-</package3d>
-<package3d name="C2917" urn="urn:adsk.eagle:package:2539466/2" type="box">
-<packageinstances>
-<packageinstance name="C2917"/>
-</packageinstances>
-</package3d>
-<package3d name="C3024" urn="urn:adsk.eagle:package:2539467/2" type="box">
-<packageinstances>
-<packageinstance name="C3024"/>
-</packageinstances>
-</package3d>
-<package3d name="C_TH_6.3MM" urn="urn:adsk.eagle:package:4855525/1" type="box">
-<packageinstances>
-<packageinstance name="C_TH_6.3MM"/>
-</packageinstances>
-</package3d>
-<package3d name="RADIAL_18MM" urn="urn:adsk.eagle:package:3188664/2" type="box">
-<packageinstances>
-<packageinstance name="RADIAL_18MM"/>
-</packageinstances>
-</package3d>
-<package3d name="RADIAL_SIDE_10X17" urn="urn:adsk.eagle:package:4855526/1" type="box">
-<packageinstances>
-<packageinstance name="RADIAL_SIDE_10X17"/>
-</packageinstances>
-</package3d>
-<package3d name="SMD-8X5.4" urn="urn:adsk.eagle:package:6513896/2" type="model">
-<description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt;&lt;p&gt;
-SMD (Chip) Long Life Vertical 153 CLV&lt;p&gt;
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="SMD-8X5.4"/>
-</packageinstances>
-</package3d>
-<package3d name="RADIAL_6.3X12.5" urn="urn:adsk.eagle:package:6513892/4" type="model">
-<packageinstances>
-<packageinstance name="RADIAL_6.3X12.5"/>
-</packageinstances>
-</package3d>
-<package3d name="RADIAL_6.3X12.5-RA" urn="urn:adsk.eagle:package:6513894/4" type="model">
-<packageinstances>
-<packageinstance name="RADIAL_6.3X12.5-RA"/>
-</packageinstances>
-</package3d>
-<package3d name="RADIAL_SIDE_12.5X22" urn="urn:adsk.eagle:package:7188961/7" type="model">
-<packageinstances>
-<packageinstance name="RADIAL_SIDE_12.5X22"/>
-</packageinstances>
-</package3d>
-<package3d name="RADIAL_12.5X22" urn="urn:adsk.eagle:package:7188960/2" type="model">
-<packageinstances>
-<packageinstance name="RADIAL_12.5X22"/>
-</packageinstances>
-</package3d>
-<package3d name="RADIAL_SIDE_8X21.5" urn="urn:adsk.eagle:package:7189333/4" type="model">
-<packageinstances>
-<packageinstance name="RADIAL_SIDE_8X21.5"/>
-</packageinstances>
-</package3d>
-<package3d name="RADIAL_8X21.5" urn="urn:adsk.eagle:package:7189331/5" type="model">
-<packageinstances>
-<packageinstance name="RADIAL_8X21.5"/>
-</packageinstances>
-</package3d>
-<package3d name="RADIAL_5X11" urn="urn:adsk.eagle:package:10810350/1" type="box">
-<packageinstances>
-<packageinstance name="RADIAL_5X11"/>
-</packageinstances>
-</package3d>
-<package3d name="RADIAL_SIDE_10X51.5" urn="urn:adsk.eagle:package:14510772/3" type="model">
-<packageinstances>
-<packageinstance name="RADIAL_SIDE_10X51.5"/>
-</packageinstances>
-</package3d>
-<package3d name="RADIAL_SIDE_18X41.5" urn="urn:adsk.eagle:package:14750870/1" type="box">
-<packageinstances>
-<packageinstance name="RADIAL_SIDE_18X41.5"/>
-</packageinstances>
-</package3d>
-<package3d name="RADIAL_13X41.5" urn="urn:adsk.eagle:package:19332624/2" type="model">
-<description>Radial Polarized Capacitor, 5.00 mm pitch, 13.00 mm body diameter, 41.50 mm body height
-&lt;p&gt;Radial Polarized Capacitor package with 5.00 mm pitch (lead spacing), 0.70 mm lead diameter, 13.00 mm body diameter and 41.50 mm body height&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="RADIAL_13X41.5"/>
-</packageinstances>
-</package3d>
-<package3d name="RADIAL_8X12" urn="urn:adsk.eagle:package:27899927/2" type="model">
-<packageinstances>
-<packageinstance name="RADIAL_8X12"/>
-</packageinstances>
-</package3d>
-<package3d name="CPOL_10.5X10.5" urn="urn:adsk.eagle:package:32903742/3" type="model">
-<packageinstances>
-<packageinstance name="CPOL_D=10XL=10.5"/>
-</packageinstances>
-</package3d>
-<package3d name="CAP_SMD_6.3X7.7" urn="urn:adsk.eagle:package:32940686/2" type="model">
-<packageinstances>
-<packageinstance name="CAP_SMD_6.3X7.7"/>
-</packageinstances>
-</package3d>
-<package3d name="RADIAL_10X12.5" urn="urn:adsk.eagle:package:34281396/2" type="model">
-<packageinstances>
-<packageinstance name="RADIAL_10X12.5"/>
-</packageinstances>
-</package3d>
-<package3d name="RADIAL_10X12.5-RA" urn="urn:adsk.eagle:package:37197090/1" type="box">
-<packageinstances>
-<packageinstance name="RADIAL_10X12.5-RA"/>
-</packageinstances>
-</package3d>
-<package3d name="RADIAL_10X12.5-LA" urn="urn:adsk.eagle:package:37279104/1" type="box">
-<packageinstances>
-<packageinstance name="RADIAL_10X12.5-LA"/>
-</packageinstances>
-</package3d>
-<package3d name="CAP_SMD_6.6X6.6" urn="urn:adsk.eagle:package:41212148/4" type="model">
-<packageinstances>
-<packageinstance name="CAP_SMD_6.6X6.6"/>
-</packageinstances>
-</package3d>
-<package3d name="SMD-0810" urn="urn:adsk.eagle:package:43487338/2" type="model">
-<description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt;&lt;p&gt;
-SMD (Chip) Long Life Vertical 153 CLV&lt;p&gt;
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="SMD-0810"/>
-</packageinstances>
-</package3d>
-<package3d name="CTANT_7X4" urn="urn:adsk.eagle:package:52272421/2" type="model">
-<description>TANTALUM CAPACITOR</description>
-<packageinstances>
-<packageinstance name="CTANT_7X4"/>
-</packageinstances>
-</package3d>
-<package3d name="CTANT_B" urn="urn:adsk.eagle:package:52272619/2" type="model">
-<description>Tantillium capacitor Type B (EIA 3528) 2.8 x 3.5 x 1.9 mm</description>
-<packageinstances>
-<packageinstance name="CTANT_B"/>
-</packageinstances>
-</package3d>
-<package3d name="LED3528" urn="urn:adsk.eagle:package:24609407/3" type="model">
-<packageinstances>
-<packageinstance name="LED3528"/>
-</packageinstances>
-</package3d>
-<package3d name="LED2020" urn="urn:adsk.eagle:package:24467158/3" type="model">
-<description>https://datasheet.lcsc.com/szlcsc/1810231210_Foshan-NationStar-Optoelectronics-FM-B2020RGBA-HG_C108793.pdf</description>
-<packageinstances>
-<packageinstance name="LED2020"/>
-</packageinstances>
-</package3d>
-<package3d name="LED3528-HOLE" urn="urn:adsk.eagle:package:24609408/7" type="model">
-<packageinstances>
-<packageinstance name="LED3528-HOLE"/>
-</packageinstances>
-</package3d>
-<package3d name="E6C0606RGBC3UDA" urn="urn:adsk.eagle:package:33885790/1" type="box">
-<description>&lt;a href = https://datasheet.lcsc.com/lcsc/1912111437_EKINGLUX-E6C0606RGBC3UDA_C375569.pdf&gt;Datasheet&lt;/a&gt;</description>
-<packageinstances>
-<packageinstance name="E6C0606RGBC3UDA"/>
-</packageinstances>
-</package3d>
-<package3d name="19-037A/RSGHBHW1-S03/2T" urn="urn:adsk.eagle:package:33895817/1" type="box">
-<description>&lt;a href = https://datasheet.lcsc.com/lcsc/1811141822_Everlight-Elec-19-037A-RSGHBHW1-S03-2T_C282128.pdf&gt;Datasheet&lt;/a&gt;</description>
-<packageinstances>
-<packageinstance name="19-037A/RSGHBHW1-S03/2T"/>
-</packageinstances>
-</package3d>
-<package3d name="MHPA0808RGBDT" urn="urn:adsk.eagle:package:45704099/1" type="box">
-<packageinstances>
-<packageinstance name="MHPA0808RGBDT"/>
-</packageinstances>
-</package3d>
-<package3d name="LTST-C19HE1WT" urn="urn:adsk.eagle:package:47085866/2" type="model">
-<packageinstances>
-<packageinstance name="LTST-C19HE1WT"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="CPOL">
-<rectangle x1="-2.4765" y1="-0.4445" x2="0.8255" y2="0.4445" layer="94" rot="R270"/>
-<wire x1="0.381" y1="1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="0.381" y1="-1.524" x2="1.27" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.524" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-0.762" y2="0" width="0.1524" layer="94"/>
-<pin name="+" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
-<pin name="-" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
-<text x="1.778" y="-1.016" size="1.27" layer="95" font="vector" align="center-left">&gt;NAME</text>
-<text x="1.778" y="2.032" size="1.27" layer="94" font="vector" ratio="15" align="center">+</text>
-<text x="-1.524" y="-0.762" size="0.762" layer="96" font="vector" rot="R180" align="center-left">&gt;VALUE</text>
-<text x="-1.524" y="0.762" size="0.762" layer="97" font="vector" align="center-right">&gt;PACKAGE</text>
-<text x="1.778" y="0.762" size="0.762" layer="96" font="vector" align="center-left">&gt;VOLTAGE</text>
-</symbol>
-<symbol name="RGB_LED">
-<wire x1="5.08" y1="8.89" x2="5.08" y2="7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="7.62" x2="5.08" y2="6.35" width="0.254" layer="94"/>
-<wire x1="5.08" y1="6.35" x2="7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="7.62" x2="5.08" y2="8.89" width="0.254" layer="94"/>
-<wire x1="7.62" y1="8.89" x2="7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="7.62" x2="7.62" y2="6.35" width="0.254" layer="94"/>
-<wire x1="5.08" y1="13.97" x2="5.08" y2="12.7" width="0.254" layer="94"/>
-<wire x1="5.08" y1="12.7" x2="5.08" y2="11.43" width="0.254" layer="94"/>
-<wire x1="5.08" y1="11.43" x2="7.62" y2="12.7" width="0.254" layer="94"/>
-<wire x1="7.62" y1="12.7" x2="5.08" y2="13.97" width="0.254" layer="94"/>
-<wire x1="7.62" y1="13.97" x2="7.62" y2="12.7" width="0.254" layer="94"/>
-<wire x1="7.62" y1="12.7" x2="7.62" y2="11.43" width="0.254" layer="94"/>
-<wire x1="5.08" y1="3.81" x2="5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="1.27" width="0.254" layer="94"/>
-<wire x1="5.08" y1="1.27" x2="7.62" y2="2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="2.54" x2="5.08" y2="3.81" width="0.254" layer="94"/>
-<wire x1="7.62" y1="3.81" x2="7.62" y2="2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="2.54" x2="7.62" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="15.24" x2="0" y2="7.62" width="0.254" layer="94"/>
-<wire x1="0" y1="7.62" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
-<wire x1="10.16" y1="15.24" x2="10.16" y2="0" width="0.254" layer="94"/>
-<wire x1="10.16" y1="15.24" x2="0" y2="15.24" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="7.62" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="7.62" x2="2.54" y2="12.7" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="12.7" x2="5.08" y2="12.7" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="7.62" x2="2.54" y2="7.62" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="7.62" x2="0" y2="7.62" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="17.78" x2="9.144" y2="19.304" width="0.254" layer="94"/>
-<wire x1="9.144" y1="19.304" x2="8.128" y2="18.796" width="0.254" layer="94"/>
-<wire x1="8.636" y1="18.288" x2="9.144" y2="19.304" width="0.254" layer="94"/>
-<wire x1="6.096" y1="17.78" x2="7.62" y2="19.304" width="0.254" layer="94"/>
-<wire x1="7.62" y1="19.304" x2="6.604" y2="18.796" width="0.254" layer="94"/>
-<wire x1="7.112" y1="18.288" x2="7.62" y2="19.304" width="0.254" layer="94"/>
-<pin name="A" x="-2.54" y="7.62" visible="off" length="short"/>
-<pin name="B" x="12.7" y="2.54" visible="off" length="middle" rot="R180"/>
-<pin name="G" x="12.7" y="7.62" visible="off" length="middle" rot="R180"/>
-<pin name="R" x="12.7" y="12.7" visible="off" length="middle" rot="R180"/>
-<text x="5.08" y="16.51" size="1.27" layer="95" font="vector" ratio="15" align="center">&gt;NAME</text>
-<text x="10.922" y="12.954" size="1.27" layer="97">R</text>
-<text x="10.922" y="7.874" size="1.27" layer="97">G</text>
-<text x="10.922" y="2.794" size="1.27" layer="97">B</text>
-<text x="5.08" y="-1.27" size="0.889" layer="97" font="vector" ratio="15" align="center">&gt;MANF#</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="CPOL" prefix="C" uservalue="yes">
-<description>Polar electrolytic or tantalum capacitor</description>
-<gates>
-<gate name="G$1" symbol="CPOL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-SMD-8X10" package="153CLV-0810">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4491937/3"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="LCSC#" value="" constant="no"/>
-<attribute name="MANF" value="" constant="no"/>
-<attribute name="MANF#" value="" constant="no"/>
-<attribute name="PACKAGE" value="8010" constant="no"/>
-<attribute name="VOLTAGE" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-2917" package="C2917">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2539466/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PACKAGE" value="2917" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-3024" package="C3024">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2539467/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PACKAGE" value="3024" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-RADIAL-6.3MM" package="C_TH_6.3MM">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4855525/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-RADIAL_18MM" package="RADIAL_18MM">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:3188664/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY#" value="565-3495-ND" constant="no"/>
-<attribute name="MANF" value="United Chemi-Con" constant="no"/>
-<attribute name="MANF#" value="EKXJ161ELL681MM50S" constant="no"/>
-<attribute name="PACKAGE" value="18mm" constant="no"/>
-<attribute name="VALUE" value="680uF 160V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-RADIAL_SIDE-10X17" package="RADIAL_SIDE_10X17">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4855526/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-SMD_8X5.4" package="SMD-8X5.4">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:6513896/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PACKAGE" value="SMD-8x5.4" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-RADIAL_6.3X12.5" package="RADIAL_6.3X12.5">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:6513892/4"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PACKAGE" value="RADIAL_6.3x12.5" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-RADIAL_6.3X12.5-RA" package="RADIAL_6.3X12.5-RA">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:6513894/4"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DIA" value="6.3mm" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="HEIGHT" value="12.5mm" constant="no"/>
-<attribute name="MANF" value="" constant="no"/>
-<attribute name="MANF#" value="" constant="no"/>
-<attribute name="PACKAGE" value="RADIAL" constant="no"/>
-<attribute name="TOLERANCE" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
-<attribute name="VOLTAGE" value="" constant="no"/>
-</technology>
-<technology name="-68UF_50V">
-<attribute name="DIA" value="6.3mm" constant="no"/>
-<attribute name="DIGIKEY#" value="732-8860-1-ND" constant="no"/>
-<attribute name="HEIGHT" value="12.5mm" constant="no"/>
-<attribute name="MANF" value="Wurth Electronics Inc" constant="no"/>
-<attribute name="MANF#" value="860020673014" constant="no"/>
-<attribute name="PACKAGE" value="RADIAL" constant="no"/>
-<attribute name="TOLERANCE" value="±20%" constant="no"/>
-<attribute name="VALUE" value="68µF" constant="no"/>
-<attribute name="VOLTAGE" value="50V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-RADIAL_SIDE-12.5-22" package="RADIAL_SIDE_12.5X22">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:7188961/7"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY#" value="495-6043-ND" constant="no"/>
-<attribute name="MANF" value="EPCOS (TDK)" constant="no"/>
-<attribute name="MANF#" value="B41896C6337M000" constant="no"/>
-<attribute name="PACKAGE" value="RADIAL" constant="no"/>
-<attribute name="VALUE" value="330µF " constant="no"/>
-<attribute name="VOLTAGE" value="50V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-RADIAL_12.5X22" package="RADIAL_12.5X22">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:7188960/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-RADIAL_SIDE-8X21.5" package="RADIAL_SIDE_8X21.5">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:7189333/4"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY#" value="565-4066-ND" constant="no"/>
-<attribute name="MANF" value="United Chemi-Con" constant="no"/>
-<attribute name="MANF#" value="EKZN500ELL181MH20D" constant="no"/>
-<attribute name="PACKAGE" value="RADIAL" constant="no"/>
-<attribute name="VALUE" value="180µF" constant="no"/>
-<attribute name="VOLTAGE" value="50V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-RADIAL_8X21.5" package="RADIAL_8X21.5">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:7189331/5"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PACKAGE" value="RADIAL" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-RADIAL_5X11" package="RADIAL_5X11">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:10810350/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PACKAGE" value="radial" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-RADIAL_SIDE-10X51.5" package="RADIAL_SIDE_10X51.5">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:14510772/3"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PACKAGE" value="RADIAL" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-RADIAL_SIDE_18X41.5" package="RADIAL_SIDE_18X41.5">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:14750870/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY#" value="565-4821-ND" constant="no"/>
-<attribute name="MANF" value="United Chemi-Con" constant="no"/>
-<attribute name="MANF#" value="EKXJ161ELL561MM40S" constant="no"/>
-<attribute name="PACKAGE" value="RADIAL" constant="no"/>
-<attribute name="VALUE" value="560µF" constant="no"/>
-<attribute name="VOLTAGE" value="160V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-RADIAL_13X41.5" package="RADIAL_13X41.5">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:19332624/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PACKAGE" value="RADIAL" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-RADIAL_8X12" package="RADIAL_8X12">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:27899927/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="LCSC#" value="" constant="no"/>
-<attribute name="MANF" value="" constant="no"/>
-<attribute name="MANF#" value="" constant="no"/>
-<attribute name="PACKAGE" value="RADIAL 8x12" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
-<attribute name="VOLTAGE" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-SMD_10X10.2" package="CPOL_D=10XL=10.5">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:32903742/3"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="LCSC#" value="" constant="no"/>
-<attribute name="MANF" value="" constant="no"/>
-<attribute name="MANF#" value="" constant="no"/>
-<attribute name="PACKAGE" value="SMD SIZE G" constant="no"/>
-<attribute name="VOLTAGE" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-SMD_6.3X7.7" package="CAP_SMD_6.3X7.7">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:32940686/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="LCSC#" value="" constant="no"/>
-<attribute name="MANF" value="" constant="no"/>
-<attribute name="MANF#" value="" constant="no"/>
-<attribute name="PACKAGE" value="0607" constant="no"/>
-<attribute name="VOLTAGE" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-RADIAL_10X12.5" package="RADIAL_10X12.5">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:34281396/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PACKAGE" value="RADIAL" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-RADIAL_10X12.5-RA" package="RADIAL_10X12.5-RA">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:37197090/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-RADIAL_10X12.5-LA" package="RADIAL_10X12.5-LA">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:37279104/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-SMD_6.6X6.6" package="CAP_SMD_6.6X6.6">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:41212148/4"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MANF" value="" constant="no"/>
-<attribute name="MANF#" value="" constant="no"/>
-<attribute name="PACKAGE" value="0606" constant="no"/>
-<attribute name="VOLTAGE" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-0810" package="SMD-0810">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:43487338/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-SMD-TYPE-D" package="CTANT_7X4">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:52272421/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-TANT-TYPE-B" package="CTANT_B">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:52272619/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-TANT-TYPE-C" package="CTANT_TYPE_C">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PACKAGE" value="TYPE C" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="LED_RGB" prefix="LED">
-<gates>
-<gate name="G$1" symbol="RGB_LED" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-2020" package="LED2020">
-<connects>
-<connect gate="G$1" pin="A" pad="+"/>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="G" pad="G"/>
-<connect gate="G$1" pin="R" pad="R"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24467158/3"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="LCSC#" value="C108793" constant="no"/>
-<attribute name="MANF" value="Foshan NationStar Optoelectronics" constant="no"/>
-<attribute name="MANF#" value="FM-B2020RGBA-HG " constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-3528" package="LED3528">
-<connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="B" pad="3"/>
-<connect gate="G$1" pin="G" pad="4"/>
-<connect gate="G$1" pin="R" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24609407/3"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MANF" value="Foryard" constant="no"/>
-<attribute name="MANF#" value="FYLS-3528RGBC-CA" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-3528-HOLE" package="LED3528-HOLE">
-<connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="B" pad="3"/>
-<connect gate="G$1" pin="G" pad="4"/>
-<connect gate="G$1" pin="R" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24609408/7"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MANF" value="Foryard" constant="no"/>
-<attribute name="MANF#" value="FYLS-3528RGBC-CA" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-E6C0606RGBC3UDA" package="E6C0606RGBC3UDA">
-<connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="B" pad="1"/>
-<connect gate="G$1" pin="G" pad="3"/>
-<connect gate="G$1" pin="R" pad="4"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:33885790/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="LCSC#" value="C375569" constant="no"/>
-<attribute name="MANF" value="EKINGLUX" constant="no"/>
-<attribute name="MANF#" value="E6C0606RGBC3UDA" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-19-037A/RSGHBHW1-S03/2T" package="19-037A/RSGHBHW1-S03/2T">
-<connects>
-<connect gate="G$1" pin="A" pad="4"/>
-<connect gate="G$1" pin="B" pad="3"/>
-<connect gate="G$1" pin="G" pad="2"/>
-<connect gate="G$1" pin="R" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:33895817/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="LCSC#" value="C282128" constant="no"/>
-<attribute name="MANF" value="Everlight Elec" constant="no"/>
-<attribute name="MANF#" value="19-037A/RSGHBHW1-S03/2T" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-0808" package="MHPA0808RGBDT">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="B" pad="4"/>
-<connect gate="G$1" pin="G" pad="3"/>
-<connect gate="G$1" pin="R" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:45704099/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="LCSC#" value="C404279" constant="no"/>
-<attribute name="MANF" value="MEIHUA" constant="no"/>
-<attribute name="MANF#" value="MHPA0808RGBDT" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-LTST-C19HE1WT" package="LTST-C19HE1WT">
-<connects>
-<connect gate="G$1" pin="A" pad="+"/>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="G" pad="G"/>
-<connect gate="G$1" pin="R" pad="R"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:47085866/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MANF" value="Lite-on" constant="no"/>
-<attribute name="MANF#" value="LTST-C19HE1WT" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-KAA-3528RGBS" package="LED3528">
-<connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="B" pad="4"/>
-<connect gate="G$1" pin="G" pad="3"/>
-<connect gate="G$1" pin="R" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24609407/3"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5298,7 +5300,7 @@ http://www.bccomponents.com/</description>
 </class>
 </classes>
 <parts>
-<part name="C1" library="rc" deviceset="CPOL" device="-TANT-TYPE-C" value="100u ">
+<part name="C1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="CPOL" device="-TANT-TYPE-C" package3d_urn="urn:adsk.eagle:package:52489374/1" value="100u ">
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="C2" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0603" package3d_urn="urn:adsk.eagle:package:2539457/6" value="0.1"/>
@@ -5315,7 +5317,7 @@ http://www.bccomponents.com/</description>
 <part name="GND3" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="GND8" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="GND2" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
-<part name="HL1" library="rc" deviceset="LED_RGB" device="-KAA-3528RGBS" package3d_urn="urn:adsk.eagle:package:24609407/3">
+<part name="HL1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="LED_RGB" device="-KAA-3528RGBS" package3d_urn="urn:adsk.eagle:package:24609407/3">
 <attribute name="MANF" value="Kingbright"/>
 <attribute name="MANF#" value="KAA-3528RGBS"/>
 </part>
