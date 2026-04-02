@@ -8,5 +8,16 @@
 <img width = 600 src = figures/blow.png>
 </p>
 
+# Внешний вид платы А (верхней платы)
+
+<p align = center>
+<img width = 600 src = figures/a.png>
+</p>
+
+# Внешний вид платы B (нижней платы)
+
+<p align = center>
+<img width = 600 src = figures/b.png>
+</p>
 
 3d модель для онлайн просмотра доступна [по ссылке](https://a360.co/4tmWj8G)
